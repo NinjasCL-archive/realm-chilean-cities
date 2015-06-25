@@ -41,7 +41,7 @@
     
     [RLMRealm setSchemaVersion:schemaVersion
                 forRealmAtPath:[RLMRealm defaultRealmPath]
-            withMigrationBlock:^(RLMMigration *migration, uint64_t oldSchemaVersion) {
+            withMigrationBlock:^(RLMMigration * migration, NSUInteger oldSchemaVersion) {
                 
                 // We haven’t migrated anything yet, so oldSchemaVersion == 0
                 if (oldSchemaVersion < 1) {
