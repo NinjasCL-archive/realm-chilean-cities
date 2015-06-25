@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91A50BC432C1AB0989E6DC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C2C2D188B06B8AB16CC07 /* libPods.a */; };
+		FFBF3EB61B3C9F0B00ECED30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EB51B3C9F0B00ECED30 /* main.m */; };
+		FFBF3EB91B3C9F0B00ECED30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EB81B3C9F0B00ECED30 /* AppDelegate.m */; };
+		FFBF3EC11B3C9F0B00ECED30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBF3EC01B3C9F0B00ECED30 /* Images.xcassets */; };
+		FFBF3ED01B3C9F0B00ECED30 /* ChileanCitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3ECF1B3C9F0B00ECED30 /* ChileanCitiesTests.m */; };
+		FFBF3EF11B3C9F5C00ECED30 /* chilean-locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FFBF3EDB1B3C9F5C00ECED30 /* chilean-locations.json */; };
+		FFBF3EF21B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EDF1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m */; };
+		FFBF3EF31B3C9F5C00ECED30 /* CVZPLocalityListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalityListController.m */; };
+		FFBF3EF41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m */; };
+		FFBF3EF51B3C9F5C00ECED30 /* CVZPJsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE61B3C9F5C00ECED30 /* CVZPJsonHelper.m */; };
+		FFBF3EF61B3C9F5C00ECED30 /* CVZPRealmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE81B3C9F5C00ECED30 /* CVZPRealmHelper.m */; };
+		FFBF3EF71B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EEB1B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.m */; };
+		FFBF3EF81B3C9F5C00ECED30 /* CVZPLocalityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EED1B3C9F5C00ECED30 /* CVZPLocalityModel.m */; };
+		FFBF3EF91B3C9F5C00ECED30 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBF3EEF1B3C9F5C00ECED30 /* Launch Screen.xib */; };
+		FFBF3EFA1B3C9F5C00ECED30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBF3EF01B3C9F5C00ECED30 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBF3ECA1B3C9F0B00ECED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBF3EA81B3C9F0B00ECED30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBF3EAF1B3C9F0B00ECED30;
+			remoteInfo = ChileanCities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358AC51E701E441234B4F9EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5468367D146F5D6094E408BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D84C2C2D188B06B8AB16CC07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF3EB01B3C9F0B00ECED30 /* ChileanCities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChileanCities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF3EB41B3C9F0B00ECED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF3EB51B3C9F0B00ECED30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFBF3EB71B3C9F0B00ECED30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFBF3EB81B3C9F0B00ECED30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFBF3EC01B3C9F0B00ECED30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBF3EC91B3C9F0B00ECED30 /* ChileanCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChileanCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF3ECE1B3C9F0B00ECED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF3ECF1B3C9F0B00ECED30 /* ChileanCitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChileanCitiesTests.m; sourceTree = "<group>"; };
+		FFBF3EDB1B3C9F5C00ECED30 /* chilean-locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chilean-locations.json"; sourceTree = "<group>"; };
+		FFBF3EDE1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPAdministrativeAreasListController.h; sourceTree = "<group>"; };
+		FFBF3EDF1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPAdministrativeAreasListController.m; sourceTree = "<group>"; };
+		FFBF3EE01B3C9F5C00ECED30 /* CVZPLocalityListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPLocalityListController.h; sourceTree = "<group>"; };
+		FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalityListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPLocalityListController.m; sourceTree = "<group>"; };
+		FFBF3EE31B3C9F5C00ECED30 /* CVZPDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPDatabaseHelper.h; sourceTree = "<group>"; };
+		FFBF3EE41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPDatabaseHelper.m; sourceTree = "<group>"; };
+		FFBF3EE51B3C9F5C00ECED30 /* CVZPJsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPJsonHelper.h; sourceTree = "<group>"; };
+		FFBF3EE61B3C9F5C00ECED30 /* CVZPJsonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPJsonHelper.m; sourceTree = "<group>"; };
+		FFBF3EE71B3C9F5C00ECED30 /* CVZPRealmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPRealmHelper.h; sourceTree = "<group>"; };
+		FFBF3EE81B3C9F5C00ECED30 /* CVZPRealmHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPRealmHelper.m; sourceTree = "<group>"; };
+		FFBF3EEA1B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPAdministrativeAreaModel.h; sourceTree = "<group>"; };
+		FFBF3EEB1B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPAdministrativeAreaModel.m; sourceTree = "<group>"; };
+		FFBF3EEC1B3C9F5C00ECED30 /* CVZPLocalityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPLocalityModel.h; sourceTree = "<group>"; };
+		FFBF3EED1B3C9F5C00ECED30 /* CVZPLocalityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPLocalityModel.m; sourceTree = "<group>"; };
+		FFBF3EEF1B3C9F5C00ECED30 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		FFBF3EF01B3C9F5C00ECED30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBF3EAD1B3C9F0B00ECED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91A50BC432C1AB0989E6DC9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF3EC61B3C9F0B00ECED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A75839243C12CF2D961FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				358AC51E701E441234B4F9EE /* Pods.debug.xcconfig */,
+				5468367D146F5D6094E408BA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2B70D21D1F3DA2992407034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84C2C2D188B06B8AB16CC07 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBF3EA71B3C9F0B00ECED30 = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EB21B3C9F0B00ECED30 /* ChileanCities */,
+				FFBF3ECC1B3C9F0B00ECED30 /* ChileanCitiesTests */,
+				FFBF3EB11B3C9F0B00ECED30 /* Products */,
+				21A75839243C12CF2D961FEA /* Pods */,
+				B2B70D21D1F3DA2992407034 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBF3EB11B3C9F0B00ECED30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EB01B3C9F0B00ECED30 /* ChileanCities.app */,
+				FFBF3EC91B3C9F0B00ECED30 /* ChileanCitiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBF3EB21B3C9F0B00ECED30 /* ChileanCities */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EDA1B3C9F5C00ECED30 /* Assets */,
+				FFBF3EDC1B3C9F5C00ECED30 /* Controllers */,
+				FFBF3EE21B3C9F5C00ECED30 /* Helpers */,
+				FFBF3EE91B3C9F5C00ECED30 /* Models */,
+				FFBF3EEE1B3C9F5C00ECED30 /* Storyboards */,
+				FFBF3ED91B3C9F4C00ECED30 /* App Delegate */,
+				FFBF3EC01B3C9F0B00ECED30 /* Images.xcassets */,
+				FFBF3EB31B3C9F0B00ECED30 /* Supporting Files */,
+			);
+			path = ChileanCities;
+			sourceTree = "<group>";
+		};
+		FFBF3EB31B3C9F0B00ECED30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EB41B3C9F0B00ECED30 /* Info.plist */,
+				FFBF3EB51B3C9F0B00ECED30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBF3ECC1B3C9F0B00ECED30 /* ChileanCitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3ECF1B3C9F0B00ECED30 /* ChileanCitiesTests.m */,
+				FFBF3ECD1B3C9F0B00ECED30 /* Supporting Files */,
+			);
+			path = ChileanCitiesTests;
+			sourceTree = "<group>";
+		};
+		FFBF3ECD1B3C9F0B00ECED30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3ECE1B3C9F0B00ECED30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBF3ED91B3C9F4C00ECED30 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EB71B3C9F0B00ECED30 /* AppDelegate.h */,
+				FFBF3EB81B3C9F0B00ECED30 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		FFBF3EDA1B3C9F5C00ECED30 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EDB1B3C9F5C00ECED30 /* chilean-locations.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FFBF3EDC1B3C9F5C00ECED30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EDD1B3C9F5C00ECED30 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FFBF3EDD1B3C9F5C00ECED30 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EFB1B3C9FAE00ECED30 /* Administrative Area List */,
+				FFBF3EFC1B3C9FB700ECED30 /* Localities List */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FFBF3EE21B3C9F5C00ECED30 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EFD1B3C9FC100ECED30 /* Database Helper */,
+				FFBF3EFE1B3C9FC800ECED30 /* Json Helper */,
+				FFBF3EFF1B3C9FCE00ECED30 /* Realm Helper */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FFBF3EE91B3C9F5C00ECED30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3F001B3C9FD500ECED30 /* Administrative Area */,
+				FFBF3F011B3C9FDB00ECED30 /* Locality */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFBF3EEE1B3C9F5C00ECED30 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EEF1B3C9F5C00ECED30 /* Launch Screen.xib */,
+				FFBF3EF01B3C9F5C00ECED30 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FFBF3EFB1B3C9FAE00ECED30 /* Administrative Area List */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EDE1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.h */,
+				FFBF3EDF1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m */,
+			);
+			name = "Administrative Area List";
+			sourceTree = "<group>";
+		};
+		FFBF3EFC1B3C9FB700ECED30 /* Localities List */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EE01B3C9F5C00ECED30 /* CVZPLocalityListController.h */,
+				FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalityListController.m */,
+			);
+			name = "Localities List";
+			sourceTree = "<group>";
+		};
+		FFBF3EFD1B3C9FC100ECED30 /* Database Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EE31B3C9F5C00ECED30 /* CVZPDatabaseHelper.h */,
+				FFBF3EE41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m */,
+			);
+			name = "Database Helper";
+			sourceTree = "<group>";
+		};
+		FFBF3EFE1B3C9FC800ECED30 /* Json Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EE51B3C9F5C00ECED30 /* CVZPJsonHelper.h */,
+				FFBF3EE61B3C9F5C00ECED30 /* CVZPJsonHelper.m */,
+			);
+			name = "Json Helper";
+			sourceTree = "<group>";
+		};
+		FFBF3EFF1B3C9FCE00ECED30 /* Realm Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EE71B3C9F5C00ECED30 /* CVZPRealmHelper.h */,
+				FFBF3EE81B3C9F5C00ECED30 /* CVZPRealmHelper.m */,
+			);
+			name = "Realm Helper";
+			sourceTree = "<group>";
+		};
+		FFBF3F001B3C9FD500ECED30 /* Administrative Area */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EEA1B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.h */,
+				FFBF3EEB1B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.m */,
+			);
+			name = "Administrative Area";
+			sourceTree = "<group>";
+		};
+		FFBF3F011B3C9FDB00ECED30 /* Locality */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF3EEC1B3C9F5C00ECED30 /* CVZPLocalityModel.h */,
+				FFBF3EED1B3C9F5C00ECED30 /* CVZPLocalityModel.m */,
+			);
+			name = Locality;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBF3EAF1B3C9F0B00ECED30 /* ChileanCities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBF3ED31B3C9F0B00ECED30 /* Build configuration list for PBXNativeTarget "ChileanCities" */;
+			buildPhases = (
+				29B69111693743E01B246467 /* Check Pods Manifest.lock */,
+				FFBF3EAC1B3C9F0B00ECED30 /* Sources */,
+				FFBF3EAD1B3C9F0B00ECED30 /* Frameworks */,
+				FFBF3EAE1B3C9F0B00ECED30 /* Resources */,
+				99323989E54A862DD2E91C4D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChileanCities;
+			productName = ChileanCities;
+			productReference = FFBF3EB01B3C9F0B00ECED30 /* ChileanCities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBF3EC81B3C9F0B00ECED30 /* ChileanCitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBF3ED61B3C9F0B00ECED30 /* Build configuration list for PBXNativeTarget "ChileanCitiesTests" */;
+			buildPhases = (
+				FFBF3EC51B3C9F0B00ECED30 /* Sources */,
+				FFBF3EC61B3C9F0B00ECED30 /* Frameworks */,
+				FFBF3EC71B3C9F0B00ECED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBF3ECB1B3C9F0B00ECED30 /* PBXTargetDependency */,
+			);
+			name = ChileanCitiesTests;
+			productName = ChileanCitiesTests;
+			productReference = FFBF3EC91B3C9F0B00ECED30 /* ChileanCitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBF3EA81B3C9F0B00ECED30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Cervezapps;
+				TargetAttributes = {
+					FFBF3EAF1B3C9F0B00ECED30 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FFBF3EC81B3C9F0B00ECED30 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FFBF3EAF1B3C9F0B00ECED30;
+					};
+				};
+			};
+			buildConfigurationList = FFBF3EAB1B3C9F0B00ECED30 /* Build configuration list for PBXProject "ChileanCities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBF3EA71B3C9F0B00ECED30;
+			productRefGroup = FFBF3EB11B3C9F0B00ECED30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBF3EAF1B3C9F0B00ECED30 /* ChileanCities */,
+				FFBF3EC81B3C9F0B00ECED30 /* ChileanCitiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBF3EAE1B3C9F0B00ECED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF3EC11B3C9F0B00ECED30 /* Images.xcassets in Resources */,
+				FFBF3EF11B3C9F5C00ECED30 /* chilean-locations.json in Resources */,
+				FFBF3EF91B3C9F5C00ECED30 /* Launch Screen.xib in Resources */,
+				FFBF3EFA1B3C9F5C00ECED30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF3EC71B3C9F0B00ECED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B69111693743E01B246467 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99323989E54A862DD2E91C4D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBF3EAC1B3C9F0B00ECED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF3EF81B3C9F5C00ECED30 /* CVZPLocalityModel.m in Sources */,
+				FFBF3EF51B3C9F5C00ECED30 /* CVZPJsonHelper.m in Sources */,
+				FFBF3EF71B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.m in Sources */,
+				FFBF3EF61B3C9F5C00ECED30 /* CVZPRealmHelper.m in Sources */,
+				FFBF3EF21B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m in Sources */,
+				FFBF3EB91B3C9F0B00ECED30 /* AppDelegate.m in Sources */,
+				FFBF3EF41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m in Sources */,
+				FFBF3EB61B3C9F0B00ECED30 /* main.m in Sources */,
+				FFBF3EF31B3C9F5C00ECED30 /* CVZPLocalityListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBF3EC51B3C9F0B00ECED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBF3ED01B3C9F0B00ECED30 /* ChileanCitiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBF3ECB1B3C9F0B00ECED30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBF3EAF1B3C9F0B00ECED30 /* ChileanCities */;
+			targetProxy = FFBF3ECA1B3C9F0B00ECED30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFBF3ED11B3C9F0B00ECED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFBF3ED21B3C9F0B00ECED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBF3ED41B3C9F0B00ECED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358AC51E701E441234B4F9EE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChileanCities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFBF3ED51B3C9F0B00ECED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5468367D146F5D6094E408BA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChileanCities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFBF3ED71B3C9F0B00ECED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChileanCitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChileanCities.app/ChileanCities";
+			};
+			name = Debug;
+		};
+		FFBF3ED81B3C9F0B00ECED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChileanCitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChileanCities.app/ChileanCities";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBF3EAB1B3C9F0B00ECED30 /* Build configuration list for PBXProject "ChileanCities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF3ED11B3C9F0B00ECED30 /* Debug */,
+				FFBF3ED21B3C9F0B00ECED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBF3ED31B3C9F0B00ECED30 /* Build configuration list for PBXNativeTarget "ChileanCities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF3ED41B3C9F0B00ECED30 /* Debug */,
+				FFBF3ED51B3C9F0B00ECED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBF3ED61B3C9F0B00ECED30 /* Build configuration list for PBXNativeTarget "ChileanCitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBF3ED71B3C9F0B00ECED30 /* Debug */,
+				FFBF3ED81B3C9F0B00ECED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBF3EA81B3C9F0B00ECED30 /* Project object */;
+}
