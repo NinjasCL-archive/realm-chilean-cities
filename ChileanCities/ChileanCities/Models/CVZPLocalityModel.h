@@ -1,7 +1,7 @@
 //
 //  CVZPLocality.h
 //
-// Copyright (c) 2015 Cervezapps
+// Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -22,21 +22,27 @@
 // THE SOFTWARE.
 
 #import <Realm/Realm.h>
+#import "CVZPRealmObjectWithJSONDataProtocol.h"
 
 /*!
- * The locality has name, number and administrativeAreaNumber. (Ex Viña del Mar)
+ * This class holds the locality (Ex Viña del Mar).
  */
-@interface CVZPLocalityModel : RLMObject
-
-/*!
- * The name for the locality
- */
-@property (nonatomic) NSString * name;
+@interface CVZPLocalityModel : RLMObject <CVZPRealmObjectWithJSONData>
 
 /*!
  * The identification number for the locality
  */
 @property (nonatomic) NSInteger number;
+
+/*!
+ *    A special code used for territory identification
+ */
+@property (nonatomic) NSInteger territorialCode;
+
+/*!
+ * The name for the locality
+ */
+@property (nonatomic) NSString * name;
 
 /*!
  * The number for the administrativeArea that this locality belongs
@@ -46,17 +52,10 @@
 // because will cause circular references error.
 @property (nonatomic) NSInteger administrativeAreaNumber;
 
-
-#pragma mark - Public Abstract Methods
-
 /*!
- *    Creates a new Locality using data from the Json file
- *
- *    @param data extracted from json file in main bundle
- *
- *    @return a new instance of CVZPLocality
+ *    The Sub Administrative Area number
  */
-+ (CVZPLocalityModel *) localityWithData: (NSDictionary *) data;
+@property (nonatomic) NSInteger subAdministrativeAreaNumber;
 
 @end
 

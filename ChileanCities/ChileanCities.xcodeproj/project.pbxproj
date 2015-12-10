@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C91A50BC432C1AB0989E6DC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C2C2D188B06B8AB16CC07 /* libPods.a */; };
+		FF1147D11C1A204A0086D48F /* chilean_administrative_areas.json in Resources */ = {isa = PBXBuildFile; fileRef = FF1147D01C1A204A0086D48F /* chilean_administrative_areas.json */; };
+		FF1147D41C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1147D31C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.m */; };
+		FF1147D91C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1147D81C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.m */; };
 		FFBF3EB61B3C9F0B00ECED30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EB51B3C9F0B00ECED30 /* main.m */; };
 		FFBF3EB91B3C9F0B00ECED30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EB81B3C9F0B00ECED30 /* AppDelegate.m */; };
 		FFBF3EC11B3C9F0B00ECED30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBF3EC01B3C9F0B00ECED30 /* Images.xcassets */; };
 		FFBF3ED01B3C9F0B00ECED30 /* ChileanCitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3ECF1B3C9F0B00ECED30 /* ChileanCitiesTests.m */; };
-		FFBF3EF11B3C9F5C00ECED30 /* chilean-locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FFBF3EDB1B3C9F5C00ECED30 /* chilean-locations.json */; };
 		FFBF3EF21B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EDF1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m */; };
-		FFBF3EF31B3C9F5C00ECED30 /* CVZPLocalityListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalityListController.m */; };
+		FFBF3EF31B3C9F5C00ECED30 /* CVZPLocalitiesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalitiesListController.m */; };
 		FFBF3EF41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m */; };
 		FFBF3EF51B3C9F5C00ECED30 /* CVZPJsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE61B3C9F5C00ECED30 /* CVZPJsonHelper.m */; };
 		FFBF3EF61B3C9F5C00ECED30 /* CVZPRealmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF3EE81B3C9F5C00ECED30 /* CVZPRealmHelper.m */; };
@@ -38,6 +40,12 @@
 		358AC51E701E441234B4F9EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5468367D146F5D6094E408BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D84C2C2D188B06B8AB16CC07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1147D01C1A204A0086D48F /* chilean_administrative_areas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chilean_administrative_areas.json; sourceTree = "<group>"; };
+		FF1147D21C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPSubAdministrativeAreaModel.h; sourceTree = "<group>"; };
+		FF1147D31C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPSubAdministrativeAreaModel.m; sourceTree = "<group>"; };
+		FF1147D61C1A23410086D48F /* CVZPRealmObjectWithJSONDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPRealmObjectWithJSONDataProtocol.h; sourceTree = "<group>"; };
+		FF1147D71C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPSubAdministrativeAreaListController.h; sourceTree = "<group>"; };
+		FF1147D81C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPSubAdministrativeAreaListController.m; sourceTree = "<group>"; };
 		FFBF3EB01B3C9F0B00ECED30 /* ChileanCities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChileanCities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBF3EB41B3C9F0B00ECED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFBF3EB51B3C9F0B00ECED30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,11 +55,10 @@
 		FFBF3EC91B3C9F0B00ECED30 /* ChileanCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChileanCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBF3ECE1B3C9F0B00ECED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFBF3ECF1B3C9F0B00ECED30 /* ChileanCitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChileanCitiesTests.m; sourceTree = "<group>"; };
-		FFBF3EDB1B3C9F5C00ECED30 /* chilean-locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chilean-locations.json"; sourceTree = "<group>"; };
 		FFBF3EDE1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPAdministrativeAreasListController.h; sourceTree = "<group>"; };
 		FFBF3EDF1B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPAdministrativeAreasListController.m; sourceTree = "<group>"; };
-		FFBF3EE01B3C9F5C00ECED30 /* CVZPLocalityListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPLocalityListController.h; sourceTree = "<group>"; };
-		FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalityListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPLocalityListController.m; sourceTree = "<group>"; };
+		FFBF3EE01B3C9F5C00ECED30 /* CVZPLocalitiesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPLocalitiesListController.h; sourceTree = "<group>"; };
+		FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalitiesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPLocalitiesListController.m; sourceTree = "<group>"; };
 		FFBF3EE31B3C9F5C00ECED30 /* CVZPDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPDatabaseHelper.h; sourceTree = "<group>"; };
 		FFBF3EE41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPDatabaseHelper.m; sourceTree = "<group>"; };
 		FFBF3EE51B3C9F5C00ECED30 /* CVZPJsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPJsonHelper.h; sourceTree = "<group>"; };
@@ -100,6 +107,24 @@
 				D84C2C2D188B06B8AB16CC07 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1147D51C1A20D10086D48F /* Sub Administrative Area */ = {
+			isa = PBXGroup;
+			children = (
+				FF1147D21C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.h */,
+				FF1147D31C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.m */,
+			);
+			name = "Sub Administrative Area";
+			sourceTree = "<group>";
+		};
+		FF1147DA1C1A2B960086D48F /* Sub Administrative Area List */ = {
+			isa = PBXGroup;
+			children = (
+				FF1147D71C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.h */,
+				FF1147D81C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.m */,
+			);
+			name = "Sub Administrative Area List";
 			sourceTree = "<group>";
 		};
 		FFBF3EA71B3C9F0B00ECED30 = {
@@ -175,7 +200,7 @@
 		FFBF3EDA1B3C9F5C00ECED30 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FFBF3EDB1B3C9F5C00ECED30 /* chilean-locations.json */,
+				FF1147D01C1A204A0086D48F /* chilean_administrative_areas.json */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -192,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				FFBF3EFB1B3C9FAE00ECED30 /* Administrative Area List */,
+				FF1147DA1C1A2B960086D48F /* Sub Administrative Area List */,
 				FFBF3EFC1B3C9FB700ECED30 /* Localities List */,
 			);
 			path = Main;
@@ -210,7 +236,9 @@
 		FFBF3EE91B3C9F5C00ECED30 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FF1147D61C1A23410086D48F /* CVZPRealmObjectWithJSONDataProtocol.h */,
 				FFBF3F001B3C9FD500ECED30 /* Administrative Area */,
+				FF1147D51C1A20D10086D48F /* Sub Administrative Area */,
 				FFBF3F011B3C9FDB00ECED30 /* Locality */,
 			);
 			path = Models;
@@ -237,8 +265,8 @@
 		FFBF3EFC1B3C9FB700ECED30 /* Localities List */ = {
 			isa = PBXGroup;
 			children = (
-				FFBF3EE01B3C9F5C00ECED30 /* CVZPLocalityListController.h */,
-				FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalityListController.m */,
+				FFBF3EE01B3C9F5C00ECED30 /* CVZPLocalitiesListController.h */,
+				FFBF3EE11B3C9F5C00ECED30 /* CVZPLocalitiesListController.m */,
 			);
 			name = "Localities List";
 			sourceTree = "<group>";
@@ -371,7 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBF3EC11B3C9F0B00ECED30 /* Images.xcassets in Resources */,
-				FFBF3EF11B3C9F5C00ECED30 /* chilean-locations.json in Resources */,
+				FF1147D11C1A204A0086D48F /* chilean_administrative_areas.json in Resources */,
 				FFBF3EF91B3C9F5C00ECED30 /* Launch Screen.xib in Resources */,
 				FFBF3EFA1B3C9F5C00ECED30 /* Main.storyboard in Resources */,
 			);
@@ -424,15 +452,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1147D91C1A2B930086D48F /* CVZPSubAdministrativeAreaListController.m in Sources */,
 				FFBF3EF81B3C9F5C00ECED30 /* CVZPLocalityModel.m in Sources */,
 				FFBF3EF51B3C9F5C00ECED30 /* CVZPJsonHelper.m in Sources */,
+				FF1147D41C1A20CE0086D48F /* CVZPSubAdministrativeAreaModel.m in Sources */,
 				FFBF3EF71B3C9F5C00ECED30 /* CVZPAdministrativeAreaModel.m in Sources */,
 				FFBF3EF61B3C9F5C00ECED30 /* CVZPRealmHelper.m in Sources */,
 				FFBF3EF21B3C9F5C00ECED30 /* CVZPAdministrativeAreasListController.m in Sources */,
 				FFBF3EB91B3C9F0B00ECED30 /* AppDelegate.m in Sources */,
 				FFBF3EF41B3C9F5C00ECED30 /* CVZPDatabaseHelper.m in Sources */,
 				FFBF3EB61B3C9F0B00ECED30 /* main.m in Sources */,
-				FFBF3EF31B3C9F5C00ECED30 /* CVZPLocalityListController.m in Sources */,
+				FFBF3EF31B3C9F5C00ECED30 /* CVZPLocalitiesListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,7 @@
 //
 //  CVZPAdministrativeArea.h
 //
-// Copyright (c) 2015 Cervezapps
+// Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -22,20 +22,15 @@
 // THE SOFTWARE.
 
 
-#import "CVZPLocalityModel.h"
-
 #import <Realm/Realm.h>
+#import "CVZPRealmObjectWithJSONDataProtocol.h"
+#import "CVZPSubAdministrativeAreaModel.h"
 
 /*!
  * This class holds the administrative area ( ex V Región)
  * name, id and its localities
  */
-@interface CVZPAdministrativeAreaModel : RLMObject
-
-/*!
- * Name for the administrative area
- */
-@property (nonatomic) NSString * name;
+@interface CVZPAdministrativeAreaModel : RLMObject <CVZPRealmObjectWithJSONData>
 
 /*!
  * Number for the administrative area
@@ -43,21 +38,25 @@
 @property (nonatomic) NSInteger number;
 
 /*!
- * The localities inside the administrative area
+ * Name for the administrative area
  */
-@property (nonatomic) RLMArray <CVZPLocalityModel> * localities;
+@property (nonatomic) NSString * name;
+
+/*!
+ * Short name for the administrative area
+ */
+@property (nonatomic) NSString * shortName;
+
+
+/*!
+ * The sub administrative areas inside the administrative area
+ */
+@property (nonatomic) RLMArray <CVZPSubAdministrativeAreaModel> * subAdministrativeAreas;
 
 
 #pragma mark - Public Abstract Methods
 
-/*!
- *    Creates a new Administrative Area using data from the Json file
- *
- *    @param data extracted from json file in main bundle
- *
- *    @return a new instance of CVZPAdministrativeArea
- */
-+ (CVZPAdministrativeAreaModel *) administrativeAreaWithData: (NSDictionary *) data;
+
 
 @end
 

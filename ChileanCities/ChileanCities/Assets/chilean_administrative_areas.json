@@ -1,0 +1,1678 @@
+{
+    "administrative_areas": [{
+                             "id": 1,
+                             "name": "Tarapaca",
+                             "shortname": "I",
+                             "sub_administrative_areas": [{
+                                                          "id": 1,
+                                                          "name": "Iquique",
+                                                          "localities": [{
+                                                                         "id": 1,
+                                                                         "territorial_code": "01101",
+                                                                         "name": "Iquique"
+                                                                         }, {
+                                                                         "id": 2,
+                                                                         "territorial_code": "01107",
+                                                                         "name": "Alto Hospicio"
+                                                                         }]
+                                                          }, {
+                                                          "id": 2,
+                                                          "name": "Tamarugal",
+                                                          "localities": [{
+                                                                         "id": 3,
+                                                                         "territorial_code": "01401",
+                                                                         "name": "Pozo Almonte"
+                                                                         }, {
+                                                                         "id": 4,
+                                                                         "territorial_code": "01402",
+                                                                         "name": "Cami\u00f1a"
+                                                                         }, {
+                                                                         "id": 5,
+                                                                         "territorial_code": "01403",
+                                                                         "name": "Colchane"
+                                                                         }, {
+                                                                         "id": 6,
+                                                                         "territorial_code": "01404",
+                                                                         "name": "Huara"
+                                                                         }, {
+                                                                         "id": 7,
+                                                                         "territorial_code": "01405",
+                                                                         "name": "Pica"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 2,
+                             "name": "Antofagasta",
+                             "shortname": "II",
+                             "sub_administrative_areas": [{
+                                                          "id": 3,
+                                                          "name": "Antofagasta",
+                                                          "localities": [{
+                                                                         "id": 8,
+                                                                         "territorial_code": "02101",
+                                                                         "name": "Antofagasta"
+                                                                         }, {
+                                                                         "id": 9,
+                                                                         "territorial_code": "02102",
+                                                                         "name": "Mejillones"
+                                                                         }, {
+                                                                         "id": 10,
+                                                                         "territorial_code": "02103",
+                                                                         "name": "Sierra Gorda"
+                                                                         }, {
+                                                                         "id": 11,
+                                                                         "territorial_code": "02104",
+                                                                         "name": "Taltal"
+                                                                         }]
+                                                          }, {
+                                                          "id": 4,
+                                                          "name": "El Loa",
+                                                          "localities": [{
+                                                                         "id": 12,
+                                                                         "territorial_code": "02201",
+                                                                         "name": "Calama"
+                                                                         }, {
+                                                                         "id": 13,
+                                                                         "territorial_code": "02202",
+                                                                         "name": "Ollague"
+                                                                         }, {
+                                                                         "id": 14,
+                                                                         "territorial_code": "02203",
+                                                                         "name": "San Pedro de Atacama"
+                                                                         }]
+                                                          }, {
+                                                          "id": 5,
+                                                          "name": "Tocopilla",
+                                                          "localities": [{
+                                                                         "id": 15,
+                                                                         "territorial_code": "02301",
+                                                                         "name": "Tocopilla"
+                                                                         }, {
+                                                                         "id": 16,
+                                                                         "territorial_code": "02302",
+                                                                         "name": "Mar\u00eda Elena"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 3,
+                             "name": "Atacama",
+                             "shortname": "III",
+                             "sub_administrative_areas": [{
+                                                          "id": 6,
+                                                          "name": "Copiapo",
+                                                          "localities": [{
+                                                                         "id": 17,
+                                                                         "territorial_code": "03101",
+                                                                         "name": "Copiap\u00f3"
+                                                                         }, {
+                                                                         "id": 18,
+                                                                         "territorial_code": "03102",
+                                                                         "name": "Caldera"
+                                                                         }, {
+                                                                         "id": 19,
+                                                                         "territorial_code": "03103",
+                                                                         "name": "Tierra Amarilla"
+                                                                         }]
+                                                          }, {
+                                                          "id": 7,
+                                                          "name": "Cha\u00f1aral",
+                                                          "localities": [{
+                                                                         "id": 20,
+                                                                         "territorial_code": "03201",
+                                                                         "name": "Cha\u00f1aral"
+                                                                         }, {
+                                                                         "id": 21,
+                                                                         "territorial_code": "03202",
+                                                                         "name": "Diego de Almagro"
+                                                                         }]
+                                                          }, {
+                                                          "id": 8,
+                                                          "name": "Huasco",
+                                                          "localities": [{
+                                                                         "id": 22,
+                                                                         "territorial_code": "03301",
+                                                                         "name": "Vallenar"
+                                                                         }, {
+                                                                         "id": 23,
+                                                                         "territorial_code": "03302",
+                                                                         "name": "Alto del Carmen"
+                                                                         }, {
+                                                                         "id": 24,
+                                                                         "territorial_code": "03303",
+                                                                         "name": "Freirina"
+                                                                         }, {
+                                                                         "id": 25,
+                                                                         "territorial_code": "03304",
+                                                                         "name": "Huasco"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 4,
+                             "name": "Coquimbo",
+                             "shortname": "IV",
+                             "sub_administrative_areas": [{
+                                                          "id": 9,
+                                                          "name": "Elqui",
+                                                          "localities": [{
+                                                                         "id": 26,
+                                                                         "territorial_code": "04101",
+                                                                         "name": "La Serena"
+                                                                         }, {
+                                                                         "id": 27,
+                                                                         "territorial_code": "04102",
+                                                                         "name": "Coquimbo"
+                                                                         }, {
+                                                                         "id": 28,
+                                                                         "territorial_code": "04103",
+                                                                         "name": "Andacollo"
+                                                                         }, {
+                                                                         "id": 29,
+                                                                         "territorial_code": "04104",
+                                                                         "name": "La Higuera"
+                                                                         }, {
+                                                                         "id": 30,
+                                                                         "territorial_code": "04105",
+                                                                         "name": "Paihuano"
+                                                                         }, {
+                                                                         "id": 31,
+                                                                         "territorial_code": "04106",
+                                                                         "name": "Vicu\u00f1a"
+                                                                         }]
+                                                          }, {
+                                                          "id": 10,
+                                                          "name": "Choapa",
+                                                          "localities": [{
+                                                                         "id": 32,
+                                                                         "territorial_code": "04201",
+                                                                         "name": "Illapel"
+                                                                         }, {
+                                                                         "id": 33,
+                                                                         "territorial_code": "04202",
+                                                                         "name": "Canela"
+                                                                         }, {
+                                                                         "id": 34,
+                                                                         "territorial_code": "04203",
+                                                                         "name": "Los Vilos"
+                                                                         }, {
+                                                                         "id": 35,
+                                                                         "territorial_code": "04204",
+                                                                         "name": "Salamanca"
+                                                                         }]
+                                                          }, {
+                                                          "id": 11,
+                                                          "name": "Limari",
+                                                          "localities": [{
+                                                                         "id": 36,
+                                                                         "territorial_code": "04301",
+                                                                         "name": "Ovalle"
+                                                                         }, {
+                                                                         "id": 37,
+                                                                         "territorial_code": "04302",
+                                                                         "name": "Combarbal\u00e1"
+                                                                         }, {
+                                                                         "id": 38,
+                                                                         "territorial_code": "04303",
+                                                                         "name": "Monte Patria"
+                                                                         }, {
+                                                                         "id": 39,
+                                                                         "territorial_code": "04304",
+                                                                         "name": "Punitaqui"
+                                                                         }, {
+                                                                         "id": 40,
+                                                                         "territorial_code": "04305",
+                                                                         "name": "R\u00edo Hurtado"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 5,
+                             "name": "Valparaiso",
+                             "shortname": "V",
+                             "sub_administrative_areas": [{
+                                                          "id": 12,
+                                                          "name": "Valparaiso",
+                                                          "localities": [{
+                                                                         "id": 41,
+                                                                         "territorial_code": "05101",
+                                                                         "name": "Valpara\u00edso"
+                                                                         }, {
+                                                                         "id": 42,
+                                                                         "territorial_code": "05102",
+                                                                         "name": "Casablanca"
+                                                                         }, {
+                                                                         "id": 43,
+                                                                         "territorial_code": "05103",
+                                                                         "name": "Conc\u00f3n"
+                                                                         }, {
+                                                                         "id": 44,
+                                                                         "territorial_code": "05104",
+                                                                         "name": "Juan Fern\u00e1ndez"
+                                                                         }, {
+                                                                         "id": 45,
+                                                                         "territorial_code": "05105",
+                                                                         "name": "Puchuncav\u00ed"
+                                                                         }, {
+                                                                         "id": 46,
+                                                                         "territorial_code": "05106",
+                                                                         "name": "Quintero"
+                                                                         }, {
+                                                                         "id": 47,
+                                                                         "territorial_code": "05107",
+                                                                         "name": "Vi\u00f1a del Mar"
+                                                                         }]
+                                                          }, {
+                                                          "id": 13,
+                                                          "name": "Isla de Pascua",
+                                                          "localities": [{
+                                                                         "id": 48,
+                                                                         "territorial_code": "05108",
+                                                                         "name": "Isla de Pascua"
+                                                                         }]
+                                                          }, {
+                                                          "id": 14,
+                                                          "name": "Marga Marga",
+                                                          "localities": [{
+                                                                         "id": 49,
+                                                                         "territorial_code": "05109",
+                                                                         "name": "Quilpu\u00e9"
+                                                                         }, {
+                                                                         "id": 50,
+                                                                         "territorial_code": "05201",
+                                                                         "name": "Villa Alemana"
+                                                                         }, {
+                                                                         "id": 51,
+                                                                         "territorial_code": "05301",
+                                                                         "name": "Olmu\u00e9"
+                                                                         }, {
+                                                                         "id": 52,
+                                                                         "territorial_code": "05302",
+                                                                         "name": "Limache"
+                                                                         }]
+                                                          }, {
+                                                          "id": 15,
+                                                          "name": "Los Andes",
+                                                          "localities": [{
+                                                                         "id": 53,
+                                                                         "territorial_code": "05303",
+                                                                         "name": "Los  Andes"
+                                                                         }, {
+                                                                         "id": 54,
+                                                                         "territorial_code": "05304",
+                                                                         "name": "Calle Larga"
+                                                                         }, {
+                                                                         "id": 55,
+                                                                         "territorial_code": "05401",
+                                                                         "name": "Rinconada"
+                                                                         }, {
+                                                                         "id": 56,
+                                                                         "territorial_code": "05402",
+                                                                         "name": "San Esteban"
+                                                                         }]
+                                                          }, {
+                                                          "id": 16,
+                                                          "name": "Petorca",
+                                                          "localities": [{
+                                                                         "id": 57,
+                                                                         "territorial_code": "05403",
+                                                                         "name": "La Ligua"
+                                                                         }, {
+                                                                         "id": 58,
+                                                                         "territorial_code": "05404",
+                                                                         "name": "Cabildo"
+                                                                         }, {
+                                                                         "id": 59,
+                                                                         "territorial_code": "05405",
+                                                                         "name": "Papudo"
+                                                                         }, {
+                                                                         "id": 60,
+                                                                         "territorial_code": "05501",
+                                                                         "name": "Petorca"
+                                                                         }, {
+                                                                         "id": 61,
+                                                                         "territorial_code": "05502",
+                                                                         "name": "Zapallar"
+                                                                         }]
+                                                          }, {
+                                                          "id": 17,
+                                                          "name": "Quillota",
+                                                          "localities": [{
+                                                                         "id": 62,
+                                                                         "territorial_code": "05503",
+                                                                         "name": "Quillota"
+                                                                         }, {
+                                                                         "id": 63,
+                                                                         "territorial_code": "05504",
+                                                                         "name": "Calera"
+                                                                         }, {
+                                                                         "id": 64,
+                                                                         "territorial_code": "05505",
+                                                                         "name": "Hijuelas"
+                                                                         }, {
+                                                                         "id": 65,
+                                                                         "territorial_code": "05506",
+                                                                         "name": "La Cruz"
+                                                                         }, {
+                                                                         "id": 66,
+                                                                         "territorial_code": "05507",
+                                                                         "name": "Nogales"
+                                                                         }]
+                                                          }, {
+                                                          "id": 18,
+                                                          "name": "San Antonio",
+                                                          "localities": [{
+                                                                         "id": 67,
+                                                                         "territorial_code": "05601",
+                                                                         "name": "San Antonio"
+                                                                         }, {
+                                                                         "id": 68,
+                                                                         "territorial_code": "05602",
+                                                                         "name": "Algarrobo"
+                                                                         }, {
+                                                                         "id": 69,
+                                                                         "territorial_code": "05603",
+                                                                         "name": "Cartagena"
+                                                                         }, {
+                                                                         "id": 70,
+                                                                         "territorial_code": "05604",
+                                                                         "name": "El Quisco"
+                                                                         }, {
+                                                                         "id": 71,
+                                                                         "territorial_code": "05605",
+                                                                         "name": "El Tabo"
+                                                                         }, {
+                                                                         "id": 72,
+                                                                         "territorial_code": "05606",
+                                                                         "name": "Santo Domingo"
+                                                                         }]
+                                                          }, {
+                                                          "id": 19,
+                                                          "name": "San Felipe de Aconcagua",
+                                                          "localities": [{
+                                                                         "id": 73,
+                                                                         "territorial_code": "05701",
+                                                                         "name": "San Felipe"
+                                                                         }, {
+                                                                         "id": 74,
+                                                                         "territorial_code": "05702",
+                                                                         "name": "Catemu"
+                                                                         }, {
+                                                                         "id": 75,
+                                                                         "territorial_code": "05703",
+                                                                         "name": "Llay Llay"
+                                                                         }, {
+                                                                         "id": 76,
+                                                                         "territorial_code": "05704",
+                                                                         "name": "Panquehue"
+                                                                         }, {
+                                                                         "id": 77,
+                                                                         "territorial_code": "05705",
+                                                                         "name": "Putaendo"
+                                                                         }, {
+                                                                         "id": 78,
+                                                                         "territorial_code": "05706",
+                                                                         "name": "Santa Mar\u00eda"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 6,
+                             "name": "del Libertador Gral. Bernardo O'higgins",
+                             "shortname": "VI",
+                             "sub_administrative_areas": [{
+                                                          "id": 20,
+                                                          "name": "Cachapoal",
+                                                          "localities": [{
+                                                                         "id": 79,
+                                                                         "territorial_code": "06101",
+                                                                         "name": "Rancagua"
+                                                                         }, {
+                                                                         "id": 80,
+                                                                         "territorial_code": "06102",
+                                                                         "name": "Codegua"
+                                                                         }, {
+                                                                         "id": 81,
+                                                                         "territorial_code": "06103",
+                                                                         "name": "Coinco"
+                                                                         }, {
+                                                                         "id": 82,
+                                                                         "territorial_code": "06104",
+                                                                         "name": "Coltauco"
+                                                                         }, {
+                                                                         "id": 83,
+                                                                         "territorial_code": "06105",
+                                                                         "name": "Do\u00f1ihue"
+                                                                         }, {
+                                                                         "id": 84,
+                                                                         "territorial_code": "06106",
+                                                                         "name": "Graneros"
+                                                                         }, {
+                                                                         "id": 85,
+                                                                         "territorial_code": "06107",
+                                                                         "name": "Las Cabras"
+                                                                         }, {
+                                                                         "id": 86,
+                                                                         "territorial_code": "06108",
+                                                                         "name": "Machal\u00ed"
+                                                                         }, {
+                                                                         "id": 87,
+                                                                         "territorial_code": "06109",
+                                                                         "name": "Malloa"
+                                                                         }, {
+                                                                         "id": 88,
+                                                                         "territorial_code": "06110",
+                                                                         "name": "Mostazal"
+                                                                         }, {
+                                                                         "id": 89,
+                                                                         "territorial_code": "06111",
+                                                                         "name": "Olivar"
+                                                                         }, {
+                                                                         "id": 90,
+                                                                         "territorial_code": "06112",
+                                                                         "name": "Peumo"
+                                                                         }, {
+                                                                         "id": 91,
+                                                                         "territorial_code": "06113",
+                                                                         "name": "Pichidegua"
+                                                                         }, {
+                                                                         "id": 92,
+                                                                         "territorial_code": "06114",
+                                                                         "name": "Quinta de Tilcoco"
+                                                                         }, {
+                                                                         "id": 93,
+                                                                         "territorial_code": "06115",
+                                                                         "name": "Rengo"
+                                                                         }, {
+                                                                         "id": 94,
+                                                                         "territorial_code": "06116",
+                                                                         "name": "Requinoa"
+                                                                         }, {
+                                                                         "id": 95,
+                                                                         "territorial_code": "06117",
+                                                                         "name": "San Vicente"
+                                                                         }]
+                                                          }, {
+                                                          "id": 21,
+                                                          "name": "Cardenal Caro",
+                                                          "localities": [{
+                                                                         "id": 96,
+                                                                         "territorial_code": "06201",
+                                                                         "name": "Pichilemu"
+                                                                         }, {
+                                                                         "id": 97,
+                                                                         "territorial_code": "06202",
+                                                                         "name": "La Estrella"
+                                                                         }, {
+                                                                         "id": 98,
+                                                                         "territorial_code": "06203",
+                                                                         "name": "Litueche"
+                                                                         }, {
+                                                                         "id": 99,
+                                                                         "territorial_code": "06204",
+                                                                         "name": "Marchihue"
+                                                                         }, {
+                                                                         "id": 100,
+                                                                         "territorial_code": "06205",
+                                                                         "name": "Navidad"
+                                                                         }, {
+                                                                         "id": 101,
+                                                                         "territorial_code": "06206",
+                                                                         "name": "Paredones"
+                                                                         }]
+                                                          }, {
+                                                          "id": 22,
+                                                          "name": "Colchagua",
+                                                          "localities": [{
+                                                                         "id": 102,
+                                                                         "territorial_code": "06301",
+                                                                         "name": "San Fernando"
+                                                                         }, {
+                                                                         "id": 103,
+                                                                         "territorial_code": "06302",
+                                                                         "name": "Ch\u00e9pica"
+                                                                         }, {
+                                                                         "id": 104,
+                                                                         "territorial_code": "06303",
+                                                                         "name": "Chimbarongo"
+                                                                         }, {
+                                                                         "id": 105,
+                                                                         "territorial_code": "06304",
+                                                                         "name": "Lolol"
+                                                                         }, {
+                                                                         "id": 106,
+                                                                         "territorial_code": "06305",
+                                                                         "name": "Nancagua"
+                                                                         }, {
+                                                                         "id": 107,
+                                                                         "territorial_code": "06306",
+                                                                         "name": "Palmilla"
+                                                                         }, {
+                                                                         "id": 108,
+                                                                         "territorial_code": "06307",
+                                                                         "name": "Peralillo"
+                                                                         }, {
+                                                                         "id": 109,
+                                                                         "territorial_code": "06308",
+                                                                         "name": "Placilla"
+                                                                         }, {
+                                                                         "id": 110,
+                                                                         "territorial_code": "06309",
+                                                                         "name": "Pumanque"
+                                                                         }, {
+                                                                         "id": 111,
+                                                                         "territorial_code": "06310",
+                                                                         "name": "Santa Cruz"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 7,
+                             "name": "del Maule",
+                             "shortname": "VII",
+                             "sub_administrative_areas": [{
+                                                          "id": 23,
+                                                          "name": "Talca",
+                                                          "localities": [{
+                                                                         "id": 112,
+                                                                         "territorial_code": "07101",
+                                                                         "name": "Talca"
+                                                                         }, {
+                                                                         "id": 113,
+                                                                         "territorial_code": "07102",
+                                                                         "name": "Constituci\u00f3n"
+                                                                         }, {
+                                                                         "id": 114,
+                                                                         "territorial_code": "07103",
+                                                                         "name": "Curepto"
+                                                                         }, {
+                                                                         "id": 115,
+                                                                         "territorial_code": "07104",
+                                                                         "name": "Empedrado"
+                                                                         }, {
+                                                                         "id": 116,
+                                                                         "territorial_code": "07105",
+                                                                         "name": "Maule"
+                                                                         }, {
+                                                                         "id": 117,
+                                                                         "territorial_code": "07106",
+                                                                         "name": "Pelarco"
+                                                                         }, {
+                                                                         "id": 118,
+                                                                         "territorial_code": "07107",
+                                                                         "name": "Pencahue"
+                                                                         }, {
+                                                                         "id": 119,
+                                                                         "territorial_code": "07108",
+                                                                         "name": "R\u00edo Claro"
+                                                                         }, {
+                                                                         "id": 120,
+                                                                         "territorial_code": "07109",
+                                                                         "name": "San Clemente"
+                                                                         }, {
+                                                                         "id": 121,
+                                                                         "territorial_code": "07110",
+                                                                         "name": "San Rafael"
+                                                                         }]
+                                                          }, {
+                                                          "id": 24,
+                                                          "name": "Cauquenes",
+                                                          "localities": [{
+                                                                         "id": 122,
+                                                                         "territorial_code": "07201",
+                                                                         "name": "Cauquenes"
+                                                                         }, {
+                                                                         "id": 123,
+                                                                         "territorial_code": "07202",
+                                                                         "name": "Chanco"
+                                                                         }, {
+                                                                         "id": 124,
+                                                                         "territorial_code": "07203",
+                                                                         "name": "Pelluhue"
+                                                                         }]
+                                                          }, {
+                                                          "id": 25,
+                                                          "name": "Curico",
+                                                          "localities": [{
+                                                                         "id": 125,
+                                                                         "territorial_code": "07301",
+                                                                         "name": "Curic\u00f3"
+                                                                         }, {
+                                                                         "id": 126,
+                                                                         "territorial_code": "07302",
+                                                                         "name": "Huala\u00f1\u00e9"
+                                                                         }, {
+                                                                         "id": 127,
+                                                                         "territorial_code": "07303",
+                                                                         "name": "Licant\u00e9n"
+                                                                         }, {
+                                                                         "id": 128,
+                                                                         "territorial_code": "07304",
+                                                                         "name": "Molina"
+                                                                         }, {
+                                                                         "id": 129,
+                                                                         "territorial_code": "07305",
+                                                                         "name": "Rauco"
+                                                                         }, {
+                                                                         "id": 130,
+                                                                         "territorial_code": "07306",
+                                                                         "name": "Romeral"
+                                                                         }, {
+                                                                         "id": 131,
+                                                                         "territorial_code": "07307",
+                                                                         "name": "Sagrada Familia"
+                                                                         }, {
+                                                                         "id": 132,
+                                                                         "territorial_code": "07308",
+                                                                         "name": "Teno"
+                                                                         }, {
+                                                                         "id": 133,
+                                                                         "territorial_code": "07309",
+                                                                         "name": "Vichuqu\u00e9n"
+                                                                         }]
+                                                          }, {
+                                                          "id": 26,
+                                                          "name": "Linares",
+                                                          "localities": [{
+                                                                         "id": 134,
+                                                                         "territorial_code": "07401",
+                                                                         "name": "Linares"
+                                                                         }, {
+                                                                         "id": 135,
+                                                                         "territorial_code": "07402",
+                                                                         "name": "Colb\u00fan"
+                                                                         }, {
+                                                                         "id": 136,
+                                                                         "territorial_code": "07403",
+                                                                         "name": "Longav\u00ed"
+                                                                         }, {
+                                                                         "id": 137,
+                                                                         "territorial_code": "07404",
+                                                                         "name": "Parral"
+                                                                         }, {
+                                                                         "id": 138,
+                                                                         "territorial_code": "07405",
+                                                                         "name": "Retiro"
+                                                                         }, {
+                                                                         "id": 139,
+                                                                         "territorial_code": "07406",
+                                                                         "name": "San Javier"
+                                                                         }, {
+                                                                         "id": 140,
+                                                                         "territorial_code": "07407",
+                                                                         "name": "Villa Alegre"
+                                                                         }, {
+                                                                         "id": 141,
+                                                                         "territorial_code": "07408",
+                                                                         "name": "Yerbas Buenas"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 8,
+                             "name": "del BioBio",
+                             "shortname": "VIII",
+                             "sub_administrative_areas": [{
+                                                          "id": 27,
+                                                          "name": "Concepcion",
+                                                          "localities": [{
+                                                                         "id": 142,
+                                                                         "territorial_code": "08101",
+                                                                         "name": "Concepci\u00f3n"
+                                                                         }, {
+                                                                         "id": 143,
+                                                                         "territorial_code": "08102",
+                                                                         "name": "Coronel"
+                                                                         }, {
+                                                                         "id": 144,
+                                                                         "territorial_code": "08103",
+                                                                         "name": "Chiguayante"
+                                                                         }, {
+                                                                         "id": 145,
+                                                                         "territorial_code": "08104",
+                                                                         "name": "Florida"
+                                                                         }, {
+                                                                         "id": 146,
+                                                                         "territorial_code": "08105",
+                                                                         "name": "Hualqui"
+                                                                         }, {
+                                                                         "id": 147,
+                                                                         "territorial_code": "08106",
+                                                                         "name": "Lota"
+                                                                         }, {
+                                                                         "id": 148,
+                                                                         "territorial_code": "08107",
+                                                                         "name": "Penco"
+                                                                         }, {
+                                                                         "id": 149,
+                                                                         "territorial_code": "08108",
+                                                                         "name": "San Pedro De La Paz"
+                                                                         }, {
+                                                                         "id": 150,
+                                                                         "territorial_code": "08109",
+                                                                         "name": "Santa Juana"
+                                                                         }, {
+                                                                         "id": 151,
+                                                                         "territorial_code": "08110",
+                                                                         "name": "Talcahuano"
+                                                                         }, {
+                                                                         "id": 152,
+                                                                         "territorial_code": "08111",
+                                                                         "name": "Tom\u00e9"
+                                                                         }, {
+                                                                         "id": 153,
+                                                                         "territorial_code": "08112",
+                                                                         "name": "Hualp\u00e9n"
+                                                                         }]
+                                                          }, {
+                                                          "id": 28,
+                                                          "name": "Arauco",
+                                                          "localities": [{
+                                                                         "id": 154,
+                                                                         "territorial_code": "08201",
+                                                                         "name": "Lebu"
+                                                                         }, {
+                                                                         "id": 155,
+                                                                         "territorial_code": "08202",
+                                                                         "name": "Arauco"
+                                                                         }, {
+                                                                         "id": 156,
+                                                                         "territorial_code": "08203",
+                                                                         "name": "Ca\u00f1ete"
+                                                                         }, {
+                                                                         "id": 157,
+                                                                         "territorial_code": "08204",
+                                                                         "name": "Contulmo"
+                                                                         }, {
+                                                                         "id": 158,
+                                                                         "territorial_code": "08205",
+                                                                         "name": "Curanilahue"
+                                                                         }, {
+                                                                         "id": 159,
+                                                                         "territorial_code": "08206",
+                                                                         "name": "Los Alamos"
+                                                                         }, {
+                                                                         "id": 160,
+                                                                         "territorial_code": "08207",
+                                                                         "name": "Tirua"
+                                                                         }]
+                                                          }, {
+                                                          "id": 29,
+                                                          "name": "Biobio",
+                                                          "localities": [{
+                                                                         "id": 161,
+                                                                         "territorial_code": "08301",
+                                                                         "name": "Los Angeles"
+                                                                         }, {
+                                                                         "id": 162,
+                                                                         "territorial_code": "08302",
+                                                                         "name": "Antuco"
+                                                                         }, {
+                                                                         "id": 163,
+                                                                         "territorial_code": "08303",
+                                                                         "name": "Cabrero"
+                                                                         }, {
+                                                                         "id": 164,
+                                                                         "territorial_code": "08304",
+                                                                         "name": "Laja"
+                                                                         }, {
+                                                                         "id": 165,
+                                                                         "territorial_code": "08305",
+                                                                         "name": "Mulch\u00e9n"
+                                                                         }, {
+                                                                         "id": 166,
+                                                                         "territorial_code": "08306",
+                                                                         "name": "Nacimiento"
+                                                                         }, {
+                                                                         "id": 167,
+                                                                         "territorial_code": "08307",
+                                                                         "name": "Negrete"
+                                                                         }, {
+                                                                         "id": 168,
+                                                                         "territorial_code": "08308",
+                                                                         "name": "Quilaco"
+                                                                         }, {
+                                                                         "id": 169,
+                                                                         "territorial_code": "08309",
+                                                                         "name": "Quilleco"
+                                                                         }, {
+                                                                         "id": 170,
+                                                                         "territorial_code": "08310",
+                                                                         "name": "San Rosendo"
+                                                                         }, {
+                                                                         "id": 171,
+                                                                         "territorial_code": "08311",
+                                                                         "name": "Santa B\u00e1rbara"
+                                                                         }, {
+                                                                         "id": 172,
+                                                                         "territorial_code": "08312",
+                                                                         "name": "Tucapel"
+                                                                         }, {
+                                                                         "id": 173,
+                                                                         "territorial_code": "08313",
+                                                                         "name": "Yumbel"
+                                                                         }, {
+                                                                         "id": 174,
+                                                                         "territorial_code": "08314",
+                                                                         "name": "Alto Biob\u00edo"
+                                                                         }]
+                                                          }, {
+                                                          "id": 30,
+                                                          "name": "\u00d1uble",
+                                                          "localities": [{
+                                                                         "id": 175,
+                                                                         "territorial_code": "08401",
+                                                                         "name": "Chill\u00e1n"
+                                                                         }, {
+                                                                         "id": 176,
+                                                                         "territorial_code": "08402",
+                                                                         "name": "Bulnes"
+                                                                         }, {
+                                                                         "id": 177,
+                                                                         "territorial_code": "08403",
+                                                                         "name": "Cobquecura"
+                                                                         }, {
+                                                                         "id": 178,
+                                                                         "territorial_code": "08404",
+                                                                         "name": "Coelemu"
+                                                                         }, {
+                                                                         "id": 179,
+                                                                         "territorial_code": "08405",
+                                                                         "name": "Coihueco"
+                                                                         }, {
+                                                                         "id": 180,
+                                                                         "territorial_code": "08406",
+                                                                         "name": "Chill\u00e1n Viejo"
+                                                                         }, {
+                                                                         "id": 181,
+                                                                         "territorial_code": "08407",
+                                                                         "name": "El Carmen"
+                                                                         }, {
+                                                                         "id": 182,
+                                                                         "territorial_code": "08408",
+                                                                         "name": "Ninhue"
+                                                                         }, {
+                                                                         "id": 183,
+                                                                         "territorial_code": "08409",
+                                                                         "name": "\u00d1iqu\u00e9n"
+                                                                         }, {
+                                                                         "id": 184,
+                                                                         "territorial_code": "08410",
+                                                                         "name": "Pemuco"
+                                                                         }, {
+                                                                         "id": 185,
+                                                                         "territorial_code": "08411",
+                                                                         "name": "Pinto"
+                                                                         }, {
+                                                                         "id": 186,
+                                                                         "territorial_code": "08412",
+                                                                         "name": "Portezuelo"
+                                                                         }, {
+                                                                         "id": 187,
+                                                                         "territorial_code": "08413",
+                                                                         "name": "Quill\u00f3n"
+                                                                         }, {
+                                                                         "id": 188,
+                                                                         "territorial_code": "08414",
+                                                                         "name": "Quirihue"
+                                                                         }, {
+                                                                         "id": 189,
+                                                                         "territorial_code": "08415",
+                                                                         "name": "Ranquil"
+                                                                         }, {
+                                                                         "id": 190,
+                                                                         "territorial_code": "08416",
+                                                                         "name": "San Carlos"
+                                                                         }, {
+                                                                         "id": 191,
+                                                                         "territorial_code": "08417",
+                                                                         "name": "San Fabi\u00e1n"
+                                                                         }, {
+                                                                         "id": 192,
+                                                                         "territorial_code": "08418",
+                                                                         "name": "San Ignacio"
+                                                                         }, {
+                                                                         "id": 193,
+                                                                         "territorial_code": "08419",
+                                                                         "name": "San Nicol\u00e1s"
+                                                                         }, {
+                                                                         "id": 194,
+                                                                         "territorial_code": "08420",
+                                                                         "name": "Trehuaco"
+                                                                         }, {
+                                                                         "id": 195,
+                                                                         "territorial_code": "08421",
+                                                                         "name": "Yungay"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 9,
+                             "name": "de la Araucania",
+                             "shortname": "IX",
+                             "sub_administrative_areas": [{
+                                                          "id": 31,
+                                                          "name": "Cautin",
+                                                          "localities": [{
+                                                                         "id": 196,
+                                                                         "territorial_code": "09101",
+                                                                         "name": "Temuco"
+                                                                         }, {
+                                                                         "id": 197,
+                                                                         "territorial_code": "09102",
+                                                                         "name": "Carahue"
+                                                                         }, {
+                                                                         "id": 198,
+                                                                         "territorial_code": "09103",
+                                                                         "name": "Cunco"
+                                                                         }, {
+                                                                         "id": 199,
+                                                                         "territorial_code": "09104",
+                                                                         "name": "Curarrehue"
+                                                                         }, {
+                                                                         "id": 200,
+                                                                         "territorial_code": "09105",
+                                                                         "name": "Freire"
+                                                                         }, {
+                                                                         "id": 201,
+                                                                         "territorial_code": "09106",
+                                                                         "name": "Galvarino"
+                                                                         }, {
+                                                                         "id": 202,
+                                                                         "territorial_code": "09107",
+                                                                         "name": "Gorbea"
+                                                                         }, {
+                                                                         "id": 203,
+                                                                         "territorial_code": "09108",
+                                                                         "name": "Lautaro"
+                                                                         }, {
+                                                                         "id": 204,
+                                                                         "territorial_code": "09109",
+                                                                         "name": "Loncoche"
+                                                                         }, {
+                                                                         "id": 205,
+                                                                         "territorial_code": "09110",
+                                                                         "name": "Melipeuco"
+                                                                         }, {
+                                                                         "id": 206,
+                                                                         "territorial_code": "09111",
+                                                                         "name": "Nueva Imperial"
+                                                                         }, {
+                                                                         "id": 207,
+                                                                         "territorial_code": "09112",
+                                                                         "name": "Padre Las Casas"
+                                                                         }, {
+                                                                         "id": 208,
+                                                                         "territorial_code": "09113",
+                                                                         "name": "Perquenco"
+                                                                         }, {
+                                                                         "id": 209,
+                                                                         "territorial_code": "09114",
+                                                                         "name": "Pitrufqu\u00e9n"
+                                                                         }, {
+                                                                         "id": 210,
+                                                                         "territorial_code": "09115",
+                                                                         "name": "Puc\u00f3n"
+                                                                         }, {
+                                                                         "id": 211,
+                                                                         "territorial_code": "09116",
+                                                                         "name": "Saavedra"
+                                                                         }, {
+                                                                         "id": 212,
+                                                                         "territorial_code": "09117",
+                                                                         "name": "Teodoro Schmidt"
+                                                                         }, {
+                                                                         "id": 213,
+                                                                         "territorial_code": "09118",
+                                                                         "name": "Tolt\u00e9n"
+                                                                         }, {
+                                                                         "id": 214,
+                                                                         "territorial_code": "09119",
+                                                                         "name": "Vilc\u00fan"
+                                                                         }, {
+                                                                         "id": 215,
+                                                                         "territorial_code": "09120",
+                                                                         "name": "Villarrica"
+                                                                         }, {
+                                                                         "id": 216,
+                                                                         "territorial_code": "09121",
+                                                                         "name": "Cholchol"
+                                                                         }]
+                                                          }, {
+                                                          "id": 32,
+                                                          "name": "Malleco",
+                                                          "localities": [{
+                                                                         "id": 217,
+                                                                         "territorial_code": "09201",
+                                                                         "name": "Angol"
+                                                                         }, {
+                                                                         "id": 218,
+                                                                         "territorial_code": "09202",
+                                                                         "name": "Collipulli"
+                                                                         }, {
+                                                                         "id": 219,
+                                                                         "territorial_code": "09203",
+                                                                         "name": "Curacaut\u00edn"
+                                                                         }, {
+                                                                         "id": 220,
+                                                                         "territorial_code": "09204",
+                                                                         "name": "Ercilla"
+                                                                         }, {
+                                                                         "id": 221,
+                                                                         "territorial_code": "09205",
+                                                                         "name": "Lonquimay"
+                                                                         }, {
+                                                                         "id": 222,
+                                                                         "territorial_code": "09206",
+                                                                         "name": "Los Sauces"
+                                                                         }, {
+                                                                         "id": 223,
+                                                                         "territorial_code": "09207",
+                                                                         "name": "Lumaco"
+                                                                         }, {
+                                                                         "id": 224,
+                                                                         "territorial_code": "09208",
+                                                                         "name": "Pur\u00e9n"
+                                                                         }, {
+                                                                         "id": 225,
+                                                                         "territorial_code": "09209",
+                                                                         "name": "Renaico"
+                                                                         }, {
+                                                                         "id": 226,
+                                                                         "territorial_code": "09210",
+                                                                         "name": "Traigu\u00e9n"
+                                                                         }, {
+                                                                         "id": 227,
+                                                                         "territorial_code": "09211",
+                                                                         "name": "Victoria"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 10,
+                             "name": "de los Lagos",
+                             "shortname": "X",
+                             "sub_administrative_areas": [{
+                                                          "id": 33,
+                                                          "name": "Llanquihue",
+                                                          "localities": [{
+                                                                         "id": 228,
+                                                                         "territorial_code": "10101",
+                                                                         "name": "Puerto Montt"
+                                                                         }, {
+                                                                         "id": 229,
+                                                                         "territorial_code": "10102",
+                                                                         "name": "Calbuco"
+                                                                         }, {
+                                                                         "id": 230,
+                                                                         "territorial_code": "10103",
+                                                                         "name": "Cocham\u00f3"
+                                                                         }, {
+                                                                         "id": 231,
+                                                                         "territorial_code": "10104",
+                                                                         "name": "Fresia"
+                                                                         }, {
+                                                                         "id": 232,
+                                                                         "territorial_code": "10105",
+                                                                         "name": "Frutillar"
+                                                                         }, {
+                                                                         "id": 233,
+                                                                         "territorial_code": "10106",
+                                                                         "name": "Los Muermos"
+                                                                         }, {
+                                                                         "id": 234,
+                                                                         "territorial_code": "10107",
+                                                                         "name": "Llanquihue"
+                                                                         }, {
+                                                                         "id": 235,
+                                                                         "territorial_code": "10108",
+                                                                         "name": "Maull\u00edn"
+                                                                         }, {
+                                                                         "id": 236,
+                                                                         "territorial_code": "10109",
+                                                                         "name": "Puerto Varas"
+                                                                         }]
+                                                          }, {
+                                                          "id": 34,
+                                                          "name": "Chiloe",
+                                                          "localities": [{
+                                                                         "id": 237,
+                                                                         "territorial_code": "10201",
+                                                                         "name": "Castro"
+                                                                         }, {
+                                                                         "id": 238,
+                                                                         "territorial_code": "10202",
+                                                                         "name": "Ancud"
+                                                                         }, {
+                                                                         "id": 239,
+                                                                         "territorial_code": "10203",
+                                                                         "name": "Chonchi"
+                                                                         }, {
+                                                                         "id": 240,
+                                                                         "territorial_code": "10204",
+                                                                         "name": "Curaco de V\u00e9lez"
+                                                                         }, {
+                                                                         "id": 241,
+                                                                         "territorial_code": "10205",
+                                                                         "name": "Dalcahue"
+                                                                         }, {
+                                                                         "id": 242,
+                                                                         "territorial_code": "10206",
+                                                                         "name": "Puqueld\u00f3n"
+                                                                         }, {
+                                                                         "id": 243,
+                                                                         "territorial_code": "10207",
+                                                                         "name": "Queil\u00e9n"
+                                                                         }, {
+                                                                         "id": 244,
+                                                                         "territorial_code": "10208",
+                                                                         "name": "Quell\u00f3n"
+                                                                         }, {
+                                                                         "id": 245,
+                                                                         "territorial_code": "10209",
+                                                                         "name": "Quemchi"
+                                                                         }, {
+                                                                         "id": 246,
+                                                                         "territorial_code": "10210",
+                                                                         "name": "Quinchao"
+                                                                         }]
+                                                          }, {
+                                                          "id": 35,
+                                                          "name": "Osorno",
+                                                          "localities": [{
+                                                                         "id": 247,
+                                                                         "territorial_code": "10301",
+                                                                         "name": "Osorno"
+                                                                         }, {
+                                                                         "id": 248,
+                                                                         "territorial_code": "10302",
+                                                                         "name": "Puerto Octay"
+                                                                         }, {
+                                                                         "id": 249,
+                                                                         "territorial_code": "10303",
+                                                                         "name": "Purranque"
+                                                                         }, {
+                                                                         "id": 250,
+                                                                         "territorial_code": "10304",
+                                                                         "name": "Puyehue"
+                                                                         }, {
+                                                                         "id": 251,
+                                                                         "territorial_code": "10305",
+                                                                         "name": "R\u00edo Negro"
+                                                                         }, {
+                                                                         "id": 252,
+                                                                         "territorial_code": "10306",
+                                                                         "name": "San Juan de la Costa"
+                                                                         }, {
+                                                                         "id": 253,
+                                                                         "territorial_code": "10307",
+                                                                         "name": "San Pablo"
+                                                                         }]
+                                                          }, {
+                                                          "id": 36,
+                                                          "name": "Palena",
+                                                          "localities": [{
+                                                                         "id": 254,
+                                                                         "territorial_code": "10401",
+                                                                         "name": "Chait\u00e9n"
+                                                                         }, {
+                                                                         "id": 255,
+                                                                         "territorial_code": "10402",
+                                                                         "name": "Futaleuf\u00fa"
+                                                                         }, {
+                                                                         "id": 256,
+                                                                         "territorial_code": "10403",
+                                                                         "name": "Hualaihue"
+                                                                         }, {
+                                                                         "id": 257,
+                                                                         "territorial_code": "10404",
+                                                                         "name": "Palena"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 11,
+                             "name": "Ays\u00e9n del Gral. Carlos Ib\u00e1\u00f1ez del Campo",
+                             "shortname": "XI",
+                             "sub_administrative_areas": [{
+                                                          "id": 37,
+                                                          "name": "Coihaique",
+                                                          "localities": [{
+                                                                         "id": 258,
+                                                                         "territorial_code": "11101",
+                                                                         "name": "Coihaique"
+                                                                         }, {
+                                                                         "id": 259,
+                                                                         "territorial_code": "11102",
+                                                                         "name": "Lago Verde"
+                                                                         }]
+                                                          }, {
+                                                          "id": 38,
+                                                          "name": "Aisen",
+                                                          "localities": [{
+                                                                         "id": 260,
+                                                                         "territorial_code": "11201",
+                                                                         "name": "Ais\u00e9n"
+                                                                         }, {
+                                                                         "id": 261,
+                                                                         "territorial_code": "11202",
+                                                                         "name": "Cisnes"
+                                                                         }, {
+                                                                         "id": 262,
+                                                                         "territorial_code": "11203",
+                                                                         "name": "Guaitecas"
+                                                                         }]
+                                                          }, {
+                                                          "id": 39,
+                                                          "name": "Capitan Prat",
+                                                          "localities": [{
+                                                                         "id": 263,
+                                                                         "territorial_code": "11301",
+                                                                         "name": "Cochrane"
+                                                                         }, {
+                                                                         "id": 264,
+                                                                         "territorial_code": "11302",
+                                                                         "name": "Ohiggins"
+                                                                         }, {
+                                                                         "id": 265,
+                                                                         "territorial_code": "11303",
+                                                                         "name": "Tortel"
+                                                                         }]
+                                                          }, {
+                                                          "id": 40,
+                                                          "name": "General Carrera",
+                                                          "localities": [{
+                                                                         "id": 266,
+                                                                         "territorial_code": "11401",
+                                                                         "name": "Chile Chico"
+                                                                         }, {
+                                                                         "id": 267,
+                                                                         "territorial_code": "11402",
+                                                                         "name": "R\u00edo Ib\u00e1\u00f1ez"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 12,
+                             "name": "Magallanes",
+                             "shortname": "XII",
+                             "sub_administrative_areas": [{
+                                                          "id": 41,
+                                                          "name": "Magallanes",
+                                                          "localities": [{
+                                                                         "id": 268,
+                                                                         "territorial_code": "12101",
+                                                                         "name": "Punta Arenas"
+                                                                         }, {
+                                                                         "id": 269,
+                                                                         "territorial_code": "12102",
+                                                                         "name": "Laguna Blanca"
+                                                                         }, {
+                                                                         "id": 270,
+                                                                         "territorial_code": "12103",
+                                                                         "name": "R\u00edo Verde"
+                                                                         }, {
+                                                                         "id": 271,
+                                                                         "territorial_code": "12104",
+                                                                         "name": "San Gregorio"
+                                                                         }]
+                                                          }, {
+                                                          "id": 42,
+                                                          "name": "Antartica Chilena",
+                                                          "localities": [{
+                                                                         "id": 272,
+                                                                         "territorial_code": "12201",
+                                                                         "name": "Cabo de Hornos"
+                                                                         }, {
+                                                                         "id": 273,
+                                                                         "territorial_code": "12202",
+                                                                         "name": "ANT\u00c1RTICA"
+                                                                         }]
+                                                          }, {
+                                                          "id": 43,
+                                                          "name": "Tierra del Fuego",
+                                                          "localities": [{
+                                                                         "id": 274,
+                                                                         "territorial_code": "12301",
+                                                                         "name": "Porvenir"
+                                                                         }, {
+                                                                         "id": 275,
+                                                                         "territorial_code": "12302",
+                                                                         "name": "Primavera"
+                                                                         }, {
+                                                                         "id": 276,
+                                                                         "territorial_code": "12303",
+                                                                         "name": "Timaukel"
+                                                                         }]
+                                                          }, {
+                                                          "id": 44,
+                                                          "name": "Ultima Esperanza",
+                                                          "localities": [{
+                                                                         "id": 277,
+                                                                         "territorial_code": "12401",
+                                                                         "name": "Natales"
+                                                                         }, {
+                                                                         "id": 278,
+                                                                         "territorial_code": "12402",
+                                                                         "name": "Torres del Paine"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 13,
+                             "name": "Metropolitana",
+                             "shortname": "RM",
+                             "sub_administrative_areas": [{
+                                                          "id": 45,
+                                                          "name": "Santiago",
+                                                          "localities": [{
+                                                                         "id": 279,
+                                                                         "territorial_code": "13101",
+                                                                         "name": "Santiago"
+                                                                         }, {
+                                                                         "id": 280,
+                                                                         "territorial_code": "13102",
+                                                                         "name": "Cerrillos"
+                                                                         }, {
+                                                                         "id": 281,
+                                                                         "territorial_code": "13103",
+                                                                         "name": "Cerro Navia"
+                                                                         }, {
+                                                                         "id": 282,
+                                                                         "territorial_code": "13104",
+                                                                         "name": "Conchal\u00ed"
+                                                                         }, {
+                                                                         "id": 283,
+                                                                         "territorial_code": "13105",
+                                                                         "name": "El Bosque"
+                                                                         }, {
+                                                                         "id": 284,
+                                                                         "territorial_code": "13106",
+                                                                         "name": "Estaci\u00f3n Central"
+                                                                         }, {
+                                                                         "id": 285,
+                                                                         "territorial_code": "13107",
+                                                                         "name": "Huechuraba"
+                                                                         }, {
+                                                                         "id": 286,
+                                                                         "territorial_code": "13108",
+                                                                         "name": "Independencia"
+                                                                         }, {
+                                                                         "id": 287,
+                                                                         "territorial_code": "13109",
+                                                                         "name": "La Cisterna"
+                                                                         }, {
+                                                                         "id": 288,
+                                                                         "territorial_code": "13110",
+                                                                         "name": "La Florida"
+                                                                         }, {
+                                                                         "id": 289,
+                                                                         "territorial_code": "13111",
+                                                                         "name": "La Granja"
+                                                                         }, {
+                                                                         "id": 290,
+                                                                         "territorial_code": "13112",
+                                                                         "name": "La Pintana"
+                                                                         }, {
+                                                                         "id": 291,
+                                                                         "territorial_code": "13113",
+                                                                         "name": "La Reina"
+                                                                         }, {
+                                                                         "id": 292,
+                                                                         "territorial_code": "13114",
+                                                                         "name": "Las Condes"
+                                                                         }, {
+                                                                         "id": 293,
+                                                                         "territorial_code": "13115",
+                                                                         "name": "Lo Barnechea"
+                                                                         }, {
+                                                                         "id": 294,
+                                                                         "territorial_code": "13116",
+                                                                         "name": "Lo Espejo"
+                                                                         }, {
+                                                                         "id": 295,
+                                                                         "territorial_code": "13117",
+                                                                         "name": "Lo Prado"
+                                                                         }, {
+                                                                         "id": 296,
+                                                                         "territorial_code": "13118",
+                                                                         "name": "Macul"
+                                                                         }, {
+                                                                         "id": 297,
+                                                                         "territorial_code": "13119",
+                                                                         "name": "Maip\u00fa"
+                                                                         }, {
+                                                                         "id": 298,
+                                                                         "territorial_code": "13120",
+                                                                         "name": "\u00d1u\u00f1oa"
+                                                                         }, {
+                                                                         "id": 299,
+                                                                         "territorial_code": "13121",
+                                                                         "name": "Pedro Aguirre Cerda"
+                                                                         }, {
+                                                                         "id": 300,
+                                                                         "territorial_code": "13122",
+                                                                         "name": "Pe\u00f1alol\u00e9n"
+                                                                         }, {
+                                                                         "id": 301,
+                                                                         "territorial_code": "13123",
+                                                                         "name": "Providencia"
+                                                                         }, {
+                                                                         "id": 302,
+                                                                         "territorial_code": "13124",
+                                                                         "name": "Pudahuel"
+                                                                         }, {
+                                                                         "id": 303,
+                                                                         "territorial_code": "13125",
+                                                                         "name": "Quilicura"
+                                                                         }, {
+                                                                         "id": 304,
+                                                                         "territorial_code": "13126",
+                                                                         "name": "Quinta Normal"
+                                                                         }, {
+                                                                         "id": 305,
+                                                                         "territorial_code": "13127",
+                                                                         "name": "Recoleta"
+                                                                         }, {
+                                                                         "id": 306,
+                                                                         "territorial_code": "13128",
+                                                                         "name": "Renca"
+                                                                         }, {
+                                                                         "id": 307,
+                                                                         "territorial_code": "13129",
+                                                                         "name": "San Joaqu\u00edn"
+                                                                         }, {
+                                                                         "id": 308,
+                                                                         "territorial_code": "13130",
+                                                                         "name": "San Miguel"
+                                                                         }, {
+                                                                         "id": 309,
+                                                                         "territorial_code": "13131",
+                                                                         "name": "San Ram\u00f3n"
+                                                                         }, {
+                                                                         "id": 310,
+                                                                         "territorial_code": "13132",
+                                                                         "name": "Vitacura"
+                                                                         }]
+                                                          }, {
+                                                          "id": 46,
+                                                          "name": "Cordillera",
+                                                          "localities": [{
+                                                                         "id": 311,
+                                                                         "territorial_code": "13201",
+                                                                         "name": "Puente Alto"
+                                                                         }, {
+                                                                         "id": 312,
+                                                                         "territorial_code": "13202",
+                                                                         "name": "Pirque"
+                                                                         }, {
+                                                                         "id": 313,
+                                                                         "territorial_code": "13203",
+                                                                         "name": "San Jos\u00e9 de Maipo"
+                                                                         }]
+                                                          }, {
+                                                          "id": 47,
+                                                          "name": "Chacabuco",
+                                                          "localities": [{
+                                                                         "id": 314,
+                                                                         "territorial_code": "13301",
+                                                                         "name": "Colina"
+                                                                         }, {
+                                                                         "id": 315,
+                                                                         "territorial_code": "13302",
+                                                                         "name": "Lampa"
+                                                                         }, {
+                                                                         "id": 316,
+                                                                         "territorial_code": "13303",
+                                                                         "name": "Til til"
+                                                                         }]
+                                                          }, {
+                                                          "id": 48,
+                                                          "name": "Maipo",
+                                                          "localities": [{
+                                                                         "id": 317,
+                                                                         "territorial_code": "13401",
+                                                                         "name": "San Bernardo"
+                                                                         }, {
+                                                                         "id": 318,
+                                                                         "territorial_code": "13402",
+                                                                         "name": "Buin"
+                                                                         }, {
+                                                                         "id": 319,
+                                                                         "territorial_code": "13403",
+                                                                         "name": "Calera de Tango"
+                                                                         }, {
+                                                                         "id": 320,
+                                                                         "territorial_code": "13404",
+                                                                         "name": "Paine"
+                                                                         }]
+                                                          }, {
+                                                          "id": 49,
+                                                          "name": "Melipilla",
+                                                          "localities": [{
+                                                                         "id": 321,
+                                                                         "territorial_code": "13501",
+                                                                         "name": "Melipilla"
+                                                                         }, {
+                                                                         "id": 322,
+                                                                         "territorial_code": "13502",
+                                                                         "name": "Alhu\u00e9"
+                                                                         }, {
+                                                                         "id": 323,
+                                                                         "territorial_code": "13503",
+                                                                         "name": "Curacav\u00ed"
+                                                                         }, {
+                                                                         "id": 324,
+                                                                         "territorial_code": "13504",
+                                                                         "name": "Mar\u00eda Pinto"
+                                                                         }, {
+                                                                         "id": 325,
+                                                                         "territorial_code": "13505",
+                                                                         "name": "San Pedro"
+                                                                         }]
+                                                          }, {
+                                                          "id": 50,
+                                                          "name": "Talagante",
+                                                          "localities": [{
+                                                                         "id": 326,
+                                                                         "territorial_code": "13601",
+                                                                         "name": "Talagante"
+                                                                         }, {
+                                                                         "id": 327,
+                                                                         "territorial_code": "13602",
+                                                                         "name": "El Monte"
+                                                                         }, {
+                                                                         "id": 328,
+                                                                         "territorial_code": "13603",
+                                                                         "name": "Isla de Maipo"
+                                                                         }, {
+                                                                         "id": 329,
+                                                                         "territorial_code": "13604",
+                                                                         "name": "Padre Hurtado"
+                                                                         }, {
+                                                                         "id": 330,
+                                                                         "territorial_code": "13605",
+                                                                         "name": "Pe\u00f1aflor"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 14,
+                             "name": "Los R\u00edos",
+                             "shortname": "XIV",
+                             "sub_administrative_areas": [{
+                                                          "id": 51,
+                                                          "name": "Valdivia",
+                                                          "localities": [{
+                                                                         "id": 331,
+                                                                         "territorial_code": "14101",
+                                                                         "name": "Valdivia"
+                                                                         }, {
+                                                                         "id": 332,
+                                                                         "territorial_code": "14102",
+                                                                         "name": "Corral"
+                                                                         }, {
+                                                                         "id": 333,
+                                                                         "territorial_code": "14103",
+                                                                         "name": "Lanco"
+                                                                         }, {
+                                                                         "id": 334,
+                                                                         "territorial_code": "14104",
+                                                                         "name": "Los Lagos"
+                                                                         }, {
+                                                                         "id": 335,
+                                                                         "territorial_code": "14105",
+                                                                         "name": "M\u00e1fil"
+                                                                         }, {
+                                                                         "id": 336,
+                                                                         "territorial_code": "14106",
+                                                                         "name": "Mariquina"
+                                                                         }, {
+                                                                         "id": 337,
+                                                                         "territorial_code": "14107",
+                                                                         "name": "Paillaco"
+                                                                         }, {
+                                                                         "id": 338,
+                                                                         "territorial_code": "14108",
+                                                                         "name": "Panguipulli"
+                                                                         }]
+                                                          }, {
+                                                          "id": 52,
+                                                          "name": "Ranco",
+                                                          "localities": [{
+                                                                         "id": 339,
+                                                                         "territorial_code": "14201",
+                                                                         "name": "La Uni\u00f3n"
+                                                                         }, {
+                                                                         "id": 340,
+                                                                         "territorial_code": "14202",
+                                                                         "name": "Futrono"
+                                                                         }, {
+                                                                         "id": 341,
+                                                                         "territorial_code": "14203",
+                                                                         "name": "Lago Ranco"
+                                                                         }, {
+                                                                         "id": 342,
+                                                                         "territorial_code": "14204",
+                                                                         "name": "R\u00edo Bueno"
+                                                                         }]
+                                                          }]
+                             }, {
+                             "id": 15,
+                             "name": "Arica y Parinacota",
+                             "shortname": "XV",
+                             "sub_administrative_areas": [{
+                                                          "id": 53,
+                                                          "name": "Arica",
+                                                          "localities": [{
+                                                                         "id": 343,
+                                                                         "territorial_code": "15101",
+                                                                         "name": "Arica"
+                                                                         }, {
+                                                                         "id": 344,
+                                                                         "territorial_code": "15102",
+                                                                         "name": "Camarones"
+                                                                         }]
+                                                          }, {
+                                                          "id": 54,
+                                                          "name": "Parinacota",
+                                                          "localities": [{
+                                                                         "id": 345,
+                                                                         "territorial_code": "15201",
+                                                                         "name": "Putre"
+                                                                         }, {
+                                                                         "id": 346,
+                                                                         "territorial_code": "15202",
+                                                                         "name": "General Lagos"
+                                                                         }]
+                                                          }]
+                             }]
+}

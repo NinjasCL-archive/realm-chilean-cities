@@ -1,7 +1,7 @@
 //
 //  CVZPAdministrativeArea.m
 //
-// Copyright (c) 2015 Cervezapps
+// Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -25,24 +25,29 @@
 
 @implementation CVZPAdministrativeAreaModel
 
-// Specify default values for properties
++ (NSString *) primaryKey {
+    return @"number";
+}
 
+// Specify default values for properties
 + (NSDictionary *)defaultPropertyValues
 {
     return @{
+             @"number" : @0,
              @"name" : @"",
-             @"number" : @0
-             };
+             @"shortName" : @""
+            };
 }
 
-
-+ (CVZPAdministrativeAreaModel *) administrativeAreaWithData: (NSDictionary *) data {
++ (CVZPAdministrativeAreaModel *) realmObjectWithJSONData:(NSDictionary *) data {
     
     CVZPAdministrativeAreaModel * administrativeArea = [CVZPAdministrativeAreaModel new];
     
-    administrativeArea.number = [data[@"number"] integerValue];
+    administrativeArea.number = [data[@"id"] integerValue];
     
     administrativeArea.name = [data[@"name"] capitalizedString];
+    
+    administrativeArea.shortName = [data[@"shortname"] capitalizedString];
     
     return administrativeArea;
 }

@@ -1,7 +1,6 @@
-//
-//  CVZPLocality.m
-//
-// Copyright (c) 2015 Ninjas.cl
+// CVZPLocalityListController.m
+// 
+// Copyright (c) 2015 Cervezapps
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -9,10 +8,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-//
+// 
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-//
+// 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -21,38 +20,46 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#import "CVZPLocalitiesListController.h"
 #import "CVZPLocalityModel.h"
+#import "CVZPSubAdministrativeAreaModel.h"
 
-@implementation CVZPLocalityModel
+@implementation CVZPLocalitiesListController
 
-+ (NSString *) primaryKey {
-    return @"number";
+- (void) viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+    
+    self.navigationItem.title = [NSString stringWithFormat:@"Localities of: %@", self.subAdministrativeArea.name];
 }
 
-+ (NSDictionary *)defaultPropertyValues {
+- (NSArray *) items {
     
-    return @{
-             @"number" : @0,
-             @"territorialCode" : @0,
-             @"name" : @""
-             };
+    return (NSArray *) self.subAdministrativeArea.localities;
 }
 
-+ (CVZPLocalityModel *) realmObjectWithJSONData:(NSDictionary *) data {
+#pragma mark - Table View
+
+#pragma mark Data Source
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    CVZPLocalityModel * locality = [CVZPLocalityModel new];
+    return self.items.count;
+}
+
+- (UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath: (NSIndexPath *) indexPath {
     
-    locality.number = [data[@"id"] integerValue];
+    static NSString * cellIdentifier = @"LocalityCell";
     
-    locality.name = [data[@"name"] capitalizedString];
+    UITableViewCell * cell = [tableView
+                              dequeueReusableCellWithIdentifier:cellIdentifier
+                              forIndexPath:indexPath];
     
-    locality.territorialCode = [data[@"territorial_code"] integerValue];
+    CVZPSubAdministrativeAreaModel * area = self.items[indexPath.row];
     
-    locality.administrativeAreaNumber = [data[@"administrativeAreaNumber"] integerValue];
+    cell.textLabel.text = area.name;
     
-    locality.subAdministrativeAreaNumber = [data[@"subAdministrativeAreaNumber"] integerValue];
-    
-    return locality;
+    return cell;
 }
 
 @end

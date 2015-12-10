@@ -1,6 +1,7 @@
-// CVZPLocalityListController.m
-// 
-// Copyright (c) 2015 Cervezapps
+//
+// CVZPSubAdministrativeAreaTableViewController.m
+//
+// Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -8,10 +9,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-// 
+//
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-// 
+//
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -20,22 +21,29 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "CVZPLocalityListController.h"
-#import "CVZPLocalityModel.h"
 #import "CVZPAdministrativeAreaModel.h"
 
-@implementation CVZPLocalityListController
+#import "CVZPSubAdministrativeAreaListController.h"
+
+#import "CVZPLocalitiesListController.h"
+
+@interface CVZPSubAdministrativeAreaListController()
+
+@property (nonatomic) CVZPSubAdministrativeAreaModel * selectedSubAdministrativeArea;
+
+@end
+
+@implementation CVZPSubAdministrativeAreaListController
 
 - (void) viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
     
-    self.navigationItem.title = self.administrativeArea.name;
-}
+    self.navigationItem.title = [NSString stringWithFormat:@"Sub Areas of: %@", self.administrativeArea.name];}
 
 - (NSArray *) items {
     
-    return (NSArray *) self.administrativeArea.localities;
+    return (NSArray *) self.administrativeArea.subAdministrativeAreas;
 }
 
 #pragma mark - Table View
@@ -49,7 +57,7 @@
 
 - (UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath: (NSIndexPath *) indexPath {
     
-    static NSString * cellIdentifier = @"LocalityCell";
+    static NSString * cellIdentifier = @"SubAdministrativeAreaCell";
     
     UITableViewCell * cell = [tableView
                               dequeueReusableCellWithIdentifier:cellIdentifier
@@ -60,6 +68,31 @@
     cell.textLabel.text = area.name;
     
     return cell;
+}
+
+#pragma mark Delegate
+
+- (void) tableView: (UITableView *) tableView
+didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    
+    CVZPSubAdministrativeAreaModel * area = self.items[indexPath.row];
+    
+    self.selectedSubAdministrativeArea = area;
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    [self performSegueWithIdentifier:@"showLocalities" sender:self];
+}
+
+#pragma mark - Segue
+
+- (void) prepareForSegue: (UIStoryboardSegue *) segue
+                  sender:(id)sender {
+    
+    CVZPLocalitiesListController * controller  = (CVZPLocalitiesListController *) segue.destinationViewController;
+    
+    controller.subAdministrativeArea = self.selectedSubAdministrativeArea;
+    
 }
 
 @end

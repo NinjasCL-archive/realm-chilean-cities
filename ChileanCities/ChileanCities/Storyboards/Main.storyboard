@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Gdd-nj-HBx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Gdd-nj-HBx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Administrative Areas-->
+        <!--{administrativeAreas}-->
         <scene sceneID="EQe-4y-xe1">
             <objects>
-                <tableViewController id="cri-7g-yCz" customClass="CVZPAdministrativeAreasListController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Rww-yc-VNE">
+                <tableViewController id="cri-7g-yCz" userLabel="{administrativeAreas}" customClass="CVZPAdministrativeAreasListController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Rww-yc-VNE" userLabel="{administrativeAreasList}">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AdministrativeAreaCell" textLabel="AOb-dV-Kfw" style="IBUITableViewCellStyleDefault" id="sBB-Qs-eyl">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AdministrativeAreaCell" textLabel="AOb-dV-Kfw" style="IBUITableViewCellStyleDefault" id="sBB-Qs-eyl" userLabel="{administrativeAreaCell}">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sBB-Qs-eyl" id="lEc-0A-UL4">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -37,23 +37,23 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="YvB-bG-6mb"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="NKN-4G-fh4" kind="show" identifier="showLocalities" id="WkE-sV-HBX"/>
+                        <segue destination="hhj-wl-ZPc" kind="show" identifier="showSubAdministrativeAreas" id="crF-5U-hJp"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLf-XC-dhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="339"/>
+            <point key="canvasLocation" x="1032" y="471"/>
         </scene>
-        <!--Localities-->
+        <!--{localities}-->
         <scene sceneID="8e0-WR-0Tm">
             <objects>
-                <tableViewController id="NKN-4G-fh4" customClass="CVZPLocalityListController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KQh-OH-RJu">
+                <tableViewController id="NKN-4G-fh4" userLabel="{localities}" customClass="CVZPLocalitiesListController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KQh-OH-RJu" userLabel="{localitiesList}">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocalityCell" id="eXa-8t-hzP">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocalityCell" id="eXa-8t-hzP" userLabel="{localityCell}">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eXa-8t-hzP" id="nwj-KF-DTK">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -69,7 +69,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOk-fc-V6T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1875" y="339"/>
+            <point key="canvasLocation" x="2518" y="471"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vA6-Eg-egX">
@@ -88,6 +88,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbW-KW-O1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="334" y="339"/>
+        </scene>
+        <!--{subAdministrativeAreas}-->
+        <scene sceneID="zzf-Tr-ioK">
+            <objects>
+                <tableViewController id="hhj-wl-ZPc" userLabel="{subAdministrativeAreas}" customClass="CVZPSubAdministrativeAreaListController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zMe-Hu-gvR" userLabel="{subAdministrativeAreasList}">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SubAdministrativeAreaCell" textLabel="hjE-ht-n5o" style="IBUITableViewCellStyleDefault" id="7fb-Ro-7rL" userLabel="{subAdministrativeAreaCell}">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7fb-Ro-7rL" id="YGc-hB-x7f">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hjE-ht-n5o">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hhj-wl-ZPc" id="p4J-kG-ZXb"/>
+                            <outlet property="delegate" destination="hhj-wl-ZPc" id="nyJ-Bk-20h"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Administrative Areas" id="iFq-FJ-mB1">
+                        <barButtonItem key="backBarButtonItem" title=" " id="paX-aq-QqV"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="NKN-4G-fh4" kind="show" identifier="showLocalities" id="NbR-dv-zCc"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MdC-rD-MK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="471"/>
         </scene>
     </scenes>
 </document>

@@ -1,6 +1,6 @@
 // CVZPDatabaseHelper.m
 //
-// Copyright (c) 2015 Cervezapps
+// Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -66,9 +66,10 @@
         // See https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLPlacemark_class/
         
         NSDictionary * data = [CVZPJsonHelper
-                               readJSONFromMainBundleWithFileName:@"chilean-locations"];
+                               readJSONFromMainBundleWithFileName:@"chilean_administrative_areas"];
         
-        NSArray * administrativeAreas = data[@"regions"];
+        NSArray * administrativeAreas = data[@"administrative_areas"];
+        NSArray * subAdministrativeAreas;
         NSArray * localities;
         
         RLMRealm * realm = [RLMRealm defaultRealm];
@@ -77,24 +78,39 @@
         
         for (NSDictionary * administrativeAreaData in administrativeAreas) {
             
-            localities = administrativeAreaData[@"cities"];
+            subAdministrativeAreas = administrativeAreaData[@"sub_administrative_areas"];
             
             CVZPAdministrativeAreaModel * administrativeArea = [CVZPAdministrativeAreaModel
-                                                              administrativeAreaWithData:
+                                                              realmObjectWithJSONData:
                                                               administrativeAreaData];
             
-            NSMutableDictionary * mutableLocalityData;
-            
-            for (NSDictionary * localityData in localities) {
+            for (__strong NSMutableDictionary * subAdministrativeAreaData in subAdministrativeAreas) {
                 
-                mutableLocalityData = [localityData mutableCopy];
+                subAdministrativeAreaData = [subAdministrativeAreaData mutableCopy];
                 
-                mutableLocalityData[@"administrativeAreaNumber"] = @(administrativeArea.number);
+                subAdministrativeAreaData[@"administrativeAreaNumber"] = @(administrativeArea.number);
                 
-                CVZPLocalityModel * locality = [CVZPLocalityModel
-                                                localityWithData:mutableLocalityData];
+                CVZPSubAdministrativeAreaModel * subAdministrativeArea = [CVZPSubAdministrativeAreaModel
+                                                                          realmObjectWithJSONData:subAdministrativeAreaData];
                 
-                [administrativeArea.localities addObject:locality];
+                
+                localities = subAdministrativeAreaData[@"localities"];
+                
+                
+                for (__strong NSMutableDictionary * localityData in localities) {
+                    
+                    localityData = [localityData mutableCopy];
+                    
+                    localityData[@"administrativeAreaNumber"] = @(administrativeArea.number);
+                    localityData[@"subAdministrativeAreaNumber"] = @(subAdministrativeArea.number);
+                    
+                    CVZPLocalityModel * locality = [CVZPLocalityModel
+                                                    realmObjectWithJSONData:localityData];
+                    
+                    [subAdministrativeArea.localities addObject:locality];
+                }
+             
+                [administrativeArea.subAdministrativeAreas addObject:subAdministrativeArea];
             }
             
             [realm addObject:administrativeArea];

@@ -1,5 +1,6 @@
-// CVZPJsonHelper.m
-// 
+//
+//  CVZPSubAdministrativeAreaModel.m
+//
 // Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -8,10 +9,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-// 
+//
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-// 
+//
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -20,38 +21,32 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "CVZPJsonHelper.h"
+#import "CVZPSubAdministrativeAreaModel.h"
 
-@implementation CVZPJsonHelper
+@implementation CVZPSubAdministrativeAreaModel
 
-#pragma mark - Public Abstract
++ (NSString *) primaryKey {
+    return @"number";
+}
 
-+ (NSDictionary *) readJSONFromMainBundleWithFileName: (NSString *) filename {
-    
-    NSString * json = [CVZPJsonHelper loadAsStringContentsFromFile:filename];
-    
-    NSDictionary * parsedJson = [CVZPJsonHelper
-                                 convertJSONStringToDictionary:json];
-    
-    return parsedJson;
+// Specify default values for properties
++ (NSDictionary *)defaultPropertyValues
+{
+    return @{@"number" : @0,
+             @"administrativeAreaNumber" : @0,
+             @"name" : @""};
 }
 
 
-#pragma mark - Private Abstract
-
-+ (NSString *) loadAsStringContentsFromFile: (NSString *) filename {
++ (CVZPSubAdministrativeAreaModel *) realmObjectWithJSONData:(NSDictionary *) data {
     
-   return [NSString stringWithContentsOfFile:[[NSBundle mainBundle]
-                                        pathForResource:filename ofType:@"json"]
-                              encoding:NSUTF8StringEncoding error:nil];
-}
-
-+ (NSDictionary *) convertJSONStringToDictionary: (NSString *) json {
+    CVZPSubAdministrativeAreaModel * subAdministrativeArea = [CVZPSubAdministrativeAreaModel new];
     
-    return [NSJSONSerialization
-            JSONObjectWithData:[json dataUsingEncoding:NSUTF8StringEncoding]
-            options:kNilOptions
-            error:nil];
+    subAdministrativeArea.number = [data[@"id"] integerValue];
+    subAdministrativeArea.administrativeAreaNumber = [data[@"administrativeAreaNumber"] integerValue];
+    subAdministrativeArea.name = data[@"name"];
+    
+    return subAdministrativeArea;
 }
 
 @end

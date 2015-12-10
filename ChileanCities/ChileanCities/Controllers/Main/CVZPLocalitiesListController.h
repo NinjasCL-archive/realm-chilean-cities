@@ -1,4 +1,4 @@
-// CVZPJsonHelper.m
+// CVZPLocalityListController.h
 // 
 // Copyright (c) 2015 Ninjas.cl
 //
@@ -20,38 +20,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "CVZPJsonHelper.h"
+#import <UIKit/UIKit.h>
 
-@implementation CVZPJsonHelper
+@class CVZPSubAdministrativeAreaModel;
 
-#pragma mark - Public Abstract
+@interface CVZPLocalitiesListController : UITableViewController
 
-+ (NSDictionary *) readJSONFromMainBundleWithFileName: (NSString *) filename {
-    
-    NSString * json = [CVZPJsonHelper loadAsStringContentsFromFile:filename];
-    
-    NSDictionary * parsedJson = [CVZPJsonHelper
-                                 convertJSONStringToDictionary:json];
-    
-    return parsedJson;
-}
-
-
-#pragma mark - Private Abstract
-
-+ (NSString *) loadAsStringContentsFromFile: (NSString *) filename {
-    
-   return [NSString stringWithContentsOfFile:[[NSBundle mainBundle]
-                                        pathForResource:filename ofType:@"json"]
-                              encoding:NSUTF8StringEncoding error:nil];
-}
-
-+ (NSDictionary *) convertJSONStringToDictionary: (NSString *) json {
-    
-    return [NSJSONSerialization
-            JSONObjectWithData:[json dataUsingEncoding:NSUTF8StringEncoding]
-            options:kNilOptions
-            error:nil];
-}
+@property (nonatomic) CVZPSubAdministrativeAreaModel * subAdministrativeArea;
 
 @end
