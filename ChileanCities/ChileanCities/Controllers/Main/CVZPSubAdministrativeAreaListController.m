@@ -22,6 +22,7 @@
 // THE SOFTWARE.
 
 #import "CVZPAdministrativeAreaModel.h"
+#import "CVZPLocationProtocol.h"
 
 #import "CVZPSubAdministrativeAreaListController.h"
 
@@ -63,7 +64,7 @@
                               dequeueReusableCellWithIdentifier:cellIdentifier
                               forIndexPath:indexPath];
     
-    CVZPAdministrativeAreaModel * area = self.items[indexPath.row];
+    id<CVZPLocationProtocol> area = self.items[indexPath.row];
     
     cell.textLabel.text = area.name;
     

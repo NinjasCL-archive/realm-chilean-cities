@@ -21,9 +21,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+
 #ifndef ChileanCities_CVZPRealmObjectWithJSONDataProtocol_h
 #define ChileanCities_CVZPRealmObjectWithJSONDataProtocol_h
 
+#import <Foundation/Foundation.h>
 #import <Realm/Realm.h>
 
 @protocol CVZPRealmObjectWithJSONData <NSObject>

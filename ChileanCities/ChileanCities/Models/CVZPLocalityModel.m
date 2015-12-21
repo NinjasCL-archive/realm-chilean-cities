@@ -24,6 +24,8 @@
 #import "CVZPLocalityModel.h"
 
 @implementation CVZPLocalityModel
+@synthesize  name;
+@synthesize number;
 
 + (NSString *) primaryKey {
     return @"number";

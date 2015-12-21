@@ -24,26 +24,17 @@
 #import <Realm/Realm.h>
 #import "CVZPRealmObjectWithJSONDataProtocol.h"
 #import "CVZPLocalityModel.h"
+#import "CVZPLocationProtocol.h"
 
 /*!
  *    This class holds the Sub Administrative Area objects (Ex: Valparaíso)
  */
-@interface CVZPSubAdministrativeAreaModel : RLMObject <CVZPRealmObjectWithJSONData>
-
-/*!
- *    The number of the Sub Administrative Area
- */
-@property (nonatomic) NSInteger number;
+@interface CVZPSubAdministrativeAreaModel : RLMObject <CVZPRealmObjectWithJSONData, CVZPLocationProtocol>
 
 /*!
  *    The Administrative Area Number
  */
 @property (nonatomic) NSInteger administrativeAreaNumber;
-
-/*!
- *    The name for the Sub Administrative Area
- */
-@property (nonatomic) NSString * name;
 
 
 /*!

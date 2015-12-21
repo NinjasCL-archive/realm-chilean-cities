@@ -20,11 +20,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+
 #import "CVZPAdministrativeAreaModel.h"
+#import "CVZPLocationProtocol.h"
 
 #import "CVZPAdministrativeAreasListController.h"
 
 #import "CVZPSubAdministrativeAreaListController.h"
+
 
 #import <Realm/Realm.h>
 
@@ -93,7 +96,7 @@
                               dequeueReusableCellWithIdentifier:cellIdentifier
                               forIndexPath:indexPath];
     
-    CVZPAdministrativeAreaModel * area = self.items[indexPath.row];
+    id<CVZPLocationProtocol> area = self.items[indexPath.row];
     
     cell.textLabel.text = area.name;
     

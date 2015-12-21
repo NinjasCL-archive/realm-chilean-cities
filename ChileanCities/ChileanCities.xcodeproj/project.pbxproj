@@ -71,6 +71,7 @@
 		FFBF3EED1B3C9F5C00ECED30 /* CVZPLocalityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVZPLocalityModel.m; sourceTree = "<group>"; };
 		FFBF3EEF1B3C9F5C00ECED30 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		FFBF3EF01B3C9F5C00ECED30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FFE16C5C1C286777001064D7 /* CVZPLocationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVZPLocationProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +237,7 @@
 		FFBF3EE91B3C9F5C00ECED30 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FFE16C5C1C286777001064D7 /* CVZPLocationProtocol.h */,
 				FF1147D61C1A23410086D48F /* CVZPRealmObjectWithJSONDataProtocol.h */,
 				FFBF3F001B3C9FD500ECED30 /* Administrative Area */,
 				FF1147D51C1A20D10086D48F /* Sub Administrative Area */,
@@ -363,7 +365,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = Cervezapps;
+				ORGANIZATIONNAME = "Ninjas CL";
 				TargetAttributes = {
 					FFBF3EAF1B3C9F0B00ECED30 = {
 						CreatedOnToolsVersion = 6.3.2;

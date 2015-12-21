@@ -1,6 +1,4 @@
 //
-//  CVZPAdministrativeArea.h
-//
 // Copyright (c) 2015 Ninjas.cl
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,34 +19,22 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#ifndef ChileanCities_CVZPLocationProtocol_h
+#define ChileanCities_CVZPLocationProtocol_h
 
-#import <Realm/Realm.h>
-#import "CVZPRealmObjectWithJSONDataProtocol.h"
-#import "CVZPSubAdministrativeAreaModel.h"
-#import "CVZPLocationProtocol.h"
+#import <Foundation/Foundation.h>
 
-/*!
- * This class holds the administrative area ( ex V Región)
- * name, id and its localities
- */
-@interface CVZPAdministrativeAreaModel : RLMObject <CVZPRealmObjectWithJSONData, CVZPLocationProtocol>
-/*!
- * Short name for the administrative area
- */
-@property (nonatomic) NSString * shortName;
+@protocol CVZPLocationProtocol <NSObject>
 
 /*!
- * The sub administrative areas inside the administrative area
+ * Number for the location area
  */
-@property (nonatomic) RLMArray <CVZPSubAdministrativeAreaModel> * subAdministrativeAreas;
+@property (nonatomic) NSInteger number;
 
-
-#pragma mark - Public Abstract Methods
-
-
+/*!
+ * Name for the location area
+ */
+@property (nonatomic) NSString * name;
 
 @end
-
-// This protocol enables typed collections. i.e.:
-// RLMArray<CVZPAdministrativeAreaModel>
-RLM_ARRAY_TYPE(CVZPAdministrativeAreaModel)
+#endif

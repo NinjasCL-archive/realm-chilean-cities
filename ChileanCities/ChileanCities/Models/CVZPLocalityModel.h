@@ -23,26 +23,19 @@
 
 #import <Realm/Realm.h>
 #import "CVZPRealmObjectWithJSONDataProtocol.h"
+#import "CVZPLocationProtocol.h"
 
 /*!
  * This class holds the locality (Ex Viña del Mar).
  */
-@interface CVZPLocalityModel : RLMObject <CVZPRealmObjectWithJSONData>
+@interface CVZPLocalityModel : RLMObject <CVZPRealmObjectWithJSONData, CVZPLocationProtocol>
 
-/*!
- * The identification number for the locality
- */
-@property (nonatomic) NSInteger number;
 
 /*!
  *    A special code used for territory identification
  */
 @property (nonatomic) NSInteger territorialCode;
 
-/*!
- * The name for the locality
- */
-@property (nonatomic) NSString * name;
 
 /*!
  * The number for the administrativeArea that this locality belongs

@@ -36,7 +36,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     [CVZPRealmHelper setupRealmWithSchemaVersion:1
-                        deletingPreviousDatabase:YES];
+                        deletingPreviousDatabase:NO];
     
     [CVZPDatabaseHelper loadAdministrativeAreasAndLocalities];
     

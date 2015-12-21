@@ -24,6 +24,8 @@
 #import "CVZPSubAdministrativeAreaModel.h"
 
 @implementation CVZPSubAdministrativeAreaModel
+@synthesize name;
+@synthesize number;
 
 + (NSString *) primaryKey {
     return @"number";

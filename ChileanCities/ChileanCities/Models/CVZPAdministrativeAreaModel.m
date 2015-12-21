@@ -25,6 +25,9 @@
 
 @implementation CVZPAdministrativeAreaModel
 
+@synthesize  name;
+@synthesize  number;
+
 + (NSString *) primaryKey {
     return @"number";
 }
